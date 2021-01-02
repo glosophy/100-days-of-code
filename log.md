@@ -5,4 +5,4 @@
 
 **Thoughts:** I really struggled with CSS, specially aligning all the elements in a div.
 
-**Link to work:** [Dash App](http://www.example.com)
+**Link to work:** [Chick-Fil-A App](https://github.com/glosophy/100-days-of-code/blob/main/Projects/ChickFilA/ChickFilA.py)
