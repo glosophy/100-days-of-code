@@ -58,6 +58,7 @@ app.layout = html.Div([
 @app.callback(Output('container-button-timestamp', 'children'),
               Input('btn-nclicks-1', 'n_clicks'))
 def displayClick(btn1):
+    global result
     now = datetime.datetime.now()
     msg = now.strftime("%A")
 
