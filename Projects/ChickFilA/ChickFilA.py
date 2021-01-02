@@ -16,7 +16,7 @@ app.layout = html.Div([
                 style = {'position': 'relative',
                          'margin': 'auto',
                          'display':'block',
-                         'margin-top':'50px'
+                         'margin-top':'70px'
                          }),
 
              html.Div([
@@ -28,19 +28,25 @@ app.layout = html.Div([
                     'borderRadius': '5px',
                     'textAlign': 'center',
                     'margin-top': '50px',
-                    'position':'relative'
+                    'margin-left':'38%'
                 }),
 
-    html.Div(id='container-button-timestamp'),
+    html.H1(id='container-button-timestamp',
+             style={
+                 'position':'relative',
+                 'font-weight':'bold',
+                 'margin-left':'44%',
+                 'margin-top':'50px'
+                 }),
 
     dcc.Markdown('''
-                Brought to you by GSS.
+                Brought to you by GSS ♥.
                 ''',
 
-                 style={'position': 'relative',
+                 style={'position':'relative',
                         'textAlign': 'center',
-                        'margin-top': '400px',
-                 })
+                        'margin-top': '300px'
+                        })
 
     ])
 
