@@ -1,8 +1,8 @@
 # 100 Days Of Code - Log
 
 ### Day 1: January 1, 2021
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**: Created a basic Dash app that tells you if Chick-Fil-A is open.
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Thoughts:** I really struggled with CSS, specially aligning all the elements in a div.
 
-**Link to work:** [Calculator App](http://www.example.com)
+**Link to work:** [Dash App](http://www.example.com)
