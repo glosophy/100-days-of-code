@@ -10,6 +10,6 @@
 ### Day 2: January 2, 2021
 **Today's Progress**: Finished putting together the CSS for the webapp.
 
-**Thoughts:** I ended up figuring out how to align each element in each of the divs. Not my fav thing, but...
+**Thoughts:** I ended up figuring out how to align each element in each of the divs. Not my fav thing, CSS was somewhat painful.
 
 **Link to work:** [Chick-Fil-A App](https://github.com/glosophy/100-days-of-code/blob/main/Projects/ChickFilA/ChickFilA.py)
