@@ -13,3 +13,10 @@
 **Thoughts:** I ended up figuring out how to align each element in each of the divs. Not my fav thing, CSS was somewhat painful.
 
 **Link to work:** [Chick-Fil-A App](https://github.com/glosophy/100-days-of-code/blob/main/Projects/ChickFilA/ChickFilA.py)
+
+### Day 3: January 3, 2021
+**Today's Progress**: Putting together a `seaborn` kdeplot using the data from the Human Freedom Index 2020.
+
+**Thoughts:** I still need to fix some small details like axes ticks and axis labels.
+
+**Link to work:** [Chick-Fil-A App](https://github.com/glosophy/100-days-of-code/blob/main/Projects/ChickFilA/ChickFilA.py)
