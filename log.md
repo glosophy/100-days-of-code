@@ -19,4 +19,4 @@
 
 **Thoughts:** I still need to fix some small details like axes ticks and axis labels.
 
-**Link to work:** [Chick-Fil-A App](https://github.com/glosophy/100-days-of-code/blob/main/Projects/ChickFilA/ChickFilA.py)
+**Link to work:** [KDE Plot with HFI quatiles](https://github.com/glosophy/100-days-of-code/tree/main/Projects/HFI)
