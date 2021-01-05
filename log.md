@@ -20,3 +20,10 @@
 **Thoughts:** I still need to fix some small details like axes ticks and axis labels.
 
 **Link to work:** [KDE Plot with HFI quatiles](https://github.com/glosophy/100-days-of-code/tree/main/Projects/HFI)
+
+### Day 4: January 4, 2021
+**Today's Progress**: Finished putting together a `seaborn` kdeplot using the data from the Human Freedom Index 2020.
+
+**Thoughts:** I learned how `FacetGrid` works. At first it was kind of confusing, but once you start playing around with it, you get a sense of what to expect and how to customize each subplot.
+
+**Link to work:** [KDE Plot with HFI quatiles](https://github.com/glosophy/100-days-of-code/tree/main/Projects/HFI)
