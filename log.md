@@ -27,3 +27,9 @@
 **Thoughts:** I learned how `FacetGrid` works. At first it was kind of confusing, but once you start playing around with it, you get a sense of what to expect and how to customize each subplot.
 
 **Link to work:** [KDE Plot with HFI quatiles](https://github.com/glosophy/100-days-of-code/tree/main/Projects/HFI)
+
+### Day 5: January 5, 2021
+**Today's Progress**: I decided I would make the whole data gathering, cleaning, and analysis for the [Human Freedom Index](https://cato.org/hfi) automatic.
+
+**Thoughts:** I ran into some issues because in order to download many of the datasets you have to sign in. What I'll do next is 
+download all the datasets manually, and then start from there. It was worth trying, though.

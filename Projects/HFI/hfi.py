@@ -9,6 +9,8 @@ df['hf_quartile'] = df['hf_quartile'].astype(int)
 df2018 = df[df['year'] == 2018]
 
 #Source: https://towardsdatascience.com/sorry-but-sns-distplot-just-isnt-good-enough-this-is-though-ef2ddbf28078
+
+# set properties for sns chart
 sns.set(font_scale=1.35, style="white", rc={"axes.facecolor": (0, 0, 0, 0)})
 
 g = sns.FacetGrid(df2018, #the dataframe to pull from
