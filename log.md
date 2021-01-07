@@ -33,3 +33,7 @@
 
 **Thoughts:** I ran into some issues because in order to download many of the datasets you have to sign in. What I'll do next is 
 download all the datasets manually, and then start from there. It was worth trying, though.
+
+### Day 6: January 6, 2021
+**Today's Progress**: Re-thinking my #100DaysOfCode journey. I'll be focusing on strengthening my machine learning skills
+through different exercises that include decision trees, ransom forest, SVM, KNN, Naive Bayes, etc. 
