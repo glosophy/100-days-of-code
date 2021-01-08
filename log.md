@@ -37,3 +37,12 @@ download all the datasets manually, and then start from there. It was worth tryi
 ### Day 6: January 6, 2021
 **Today's Progress**: Re-thinking my #100DaysOfCode journey. I'll be focusing on strengthening my machine learning skills
 through different exercises that include decision trees, ransom forest, SVM, KNN, Naive Bayes, etc. 
+
+### Day 7: January 7, 2021
+**Today's Progress**: I solved one of my machine learning exercises on decision trees. I ran two tree models: gini and entropy.
+I calculated the classification metrics and plotted the trees and confusion matrices.
+
+**Thoughts:** This exercise made me refresh some decision tree concepts (impurity measurements and information gain).
+I found [this article](https://towardsdatascience.com/gini-index-vs-information-entropy-7a7e4fed3fcb) to be particularly helpful.
+
+**Link to work:** [KDE Plot with HFI quatiles](https://github.com/glosophy/100-days-of-code/tree/main/Projects/HFI)
