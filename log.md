@@ -45,4 +45,4 @@ I calculated the classification metrics and plotted the trees and confusion matr
 **Thoughts:** This exercise made me refresh some decision tree concepts (impurity measurements and information gain).
 I found [this article](https://towardsdatascience.com/gini-index-vs-information-entropy-7a7e4fed3fcb) to be particularly helpful.
 
-**Link to work:** [KDE Plot with HFI quatiles](https://github.com/glosophy/100-days-of-code/tree/main/Projects/HFI)
+**Link to work:** [decisionTree.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Decision%20Tree/decisionTree.py)
