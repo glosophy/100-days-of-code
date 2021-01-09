@@ -50,7 +50,9 @@ I found [this article](https://towardsdatascience.com/gini-index-vs-information-
 
 ### Day 8: January 8, 2021
 **Today's Progress**: I used a for loop to iterate through a series of parameters to fine-tune the decision tree model.
-I used `DecisionTreeClassifier()` from `sklearn` and fine-tuned `max_depth` and `min_samples_leaf` for both gini and entropy criterions. 
+I used `DecisionTreeClassifier()` from `sklearn` and fine-tuned `max_depth` and `min_samples_leaf` for both gini and entropy criterions.
+I really recommend [this article](https://medium.com/@mohtedibf/indepth-parameter-tuning-for-decision-tree-6753118a03c3#:~:text=min_samples_leaf%20is%20The%20minimum%20number,the%20base%20of%20the%20tree.) 
+that helped me figure out what each of the parameters meant in `DecisionTreeClassifier()`.
 
 **Thoughts:** I learned what the different parameters mean and how changing them affect the accuracy scores.
 The entropy criterion had the best accuracies and AUC overall.
