@@ -24,7 +24,8 @@
 ### Day 4: January 4, 2021
 **Today's Progress**: Finished putting together a `seaborn` kdeplot using the data from the Human Freedom Index 2020.
 
-**Thoughts:** I learned how `FacetGrid` works. At first it was kind of confusing, but once you start playing around with it, you get a sense of what to expect and how to customize each subplot.
+**Thoughts:** I learned how `FacetGrid` works. At first it was kind of confusing, but once you start playing around with it, 
+you get a sense of what to expect and how to customize each subplot.
 
 **Link to work:** [KDE Plot with HFI quatiles](https://github.com/glosophy/100-days-of-code/tree/main/Projects/HFI)
 
@@ -44,5 +45,14 @@ I calculated the classification metrics and plotted the trees and confusion matr
 
 **Thoughts:** This exercise made me refresh some decision tree concepts (impurity measurements and information gain).
 I found [this article](https://towardsdatascience.com/gini-index-vs-information-entropy-7a7e4fed3fcb) to be particularly helpful.
+
+**Link to work:** [decisionTree.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Decision%20Tree/decisionTree.py)
+
+### Day 8: January 8, 2021
+**Today's Progress**: I used a for loop to iterate through a series of parameters to fine-tune the decision tree model.
+I used `DecisionTreeClassifier()` from `sklearn` and fine-tuned `max_depth` and `min_samples_leaf` for both gini and entropy criterions. 
+
+**Thoughts:** I learned what the different parameters mean and how changing them affect the accuracy scores.
+The entropy criterion had the best accuracies and AUC overall.
 
 **Link to work:** [decisionTree.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Decision%20Tree/decisionTree.py)
