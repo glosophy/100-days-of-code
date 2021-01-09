@@ -58,3 +58,13 @@ that helped me figure out what each of the parameters meant in `DecisionTreeClas
 The entropy criterion had the best accuracies and AUC overall.
 
 **Link to work:** [decisionTree.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Decision%20Tree/decisionTree.py)
+
+### Day 9: January 9, 2021
+**Today's Progress**: I played around with `GridSearchCV` and applied it to my decision tree model. Everything I did yesterday,
+can be done with just seven lines of code.
+
+**Thoughts:** `GridSearchCV` is way faster and computationally less expensive than what I did yesterday. It will not always
+be less expensive computationally, though -that will ultimately depend on how many parameters you want to include
+in the grid search.
+
+**Link to work:** [decisionTree.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Decision%20Tree/decisionTree.py)
