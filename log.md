@@ -75,4 +75,4 @@ in the grid search.
 **Thoughts:** I am trying out different ensembling methods on the same dataset to: 1) better understand how they work,
 and 2) compare them with each other. 
 
-**Link to work:** [GridSearchTree.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Decision%20Tree/GridSearchTree.py)
+**Link to work:** [Bagging.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Bagging/Bagging.py)
