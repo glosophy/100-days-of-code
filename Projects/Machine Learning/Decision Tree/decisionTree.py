@@ -47,11 +47,11 @@ clf_gini.fit(X_train_std, y_train)
 
 clf_entropy = DecisionTreeClassifier(criterion="entropy", random_state=42,
                                      max_depth=3, min_samples_leaf=5, class_weight='balanced')
-clf_entropy.fit(X_train, y_train)
+clf_entropy.fit(X_train_std, y_train)
 
 # prediction
-y_pred = clf_gini.predict(X_test)
-y_pred_en = clf_entropy.predict(X_test)
+y_pred = clf_gini.predict(X_test_std)
+y_pred_en = clf_entropy.predict(X_test_std)
 
 # print accuracies
 print("Accuracy for Gini tree is ", round((accuracy_score(y_test, y_pred) * 100), 2))

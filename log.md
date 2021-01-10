@@ -68,3 +68,11 @@ be less expensive computationally, though -that will ultimately depend on how ma
 in the grid search.
 
 **Link to work:** [GridSearchTree.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Decision%20Tree/GridSearchTree.py)
+
+### Day 10: January 10, 2021
+**Today's Progress**: I used `BaggingClassifier()` on the UCI banknote dataset.
+
+**Thoughts:** I am trying out different ensembling methods on the same dataset to: 1) better understand how they work,
+and 2) compare them with each other. 
+
+**Link to work:** [GridSearchTree.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Decision%20Tree/GridSearchTree.py)
