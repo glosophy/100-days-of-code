@@ -84,4 +84,4 @@ and 2) compare them with each other.
 Both the training accuracy (99.51) and the AUC (99.99) were the best metrics so far. I am going to try out a different dataset
 tomorrow with more features to play around with `clf.feature_importances_`.
 
-**Link to work:** [Bagging.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Bagging/Bagging.py)
+**Link to work:** [randomForest.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Random%20Forest/randomForest.py)
