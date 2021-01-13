@@ -85,3 +85,11 @@ Both the training accuracy (99.51) and the AUC (99.99) were the best metrics so 
 tomorrow with more features to play around with `clf.feature_importances_`.
 
 **Link to work:** [randomForest.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Random%20Forest/randomForest.py)
+
+### Day 12: January 12, 2021
+**Today's Progress**: I used `RandomForestClassifier()` on the titanic dataset and brushed up some 
+dataset cleaning methods. I also used `clf.feature_importances_` to select the most important features in the dataframe.
+
+**Thoughts:** `clf.feature_importances_` is a great method for getting rid of features that might not add a lot to the model.
+
+**Link to work:** [randomForest2.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Random%20Forest/randomForest2.py)
