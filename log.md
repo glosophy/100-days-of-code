@@ -93,3 +93,11 @@ dataset cleaning methods. I also used `clf.feature_importances_` to select the m
 **Thoughts:** `clf.feature_importances_` is a great method for getting rid of features that might not add a lot to the model.
 
 **Link to work:** [randomForest2.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Random%20Forest/randomForest2.py)
+
+### Day 13: January 13, 2021
+**Today's Progress**: I brushed up on `GradientBoostingClassifier()` and `AdaBoostClassifier()`. 
+
+**Thoughts:** These two models performed better compared to the decision tree, bagging, and random forest. I'll try 
+tomorrow these same models on a bigger dataset with more features to see how it performs.
+
+**Link to work:** [randomForest2.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Random%20Forest/randomForest2.py)
