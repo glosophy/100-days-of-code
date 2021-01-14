@@ -100,4 +100,5 @@ dataset cleaning methods. I also used `clf.feature_importances_` to select the m
 **Thoughts:** These two models performed better compared to the decision tree, bagging, and random forest. I'll try 
 tomorrow these same models on a bigger dataset with more features to see how it performs.
 
-**Link to work:** [randomForest2.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Random%20Forest/randomForest2.py)
+**Link to work:** [adaBoost.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/AdaBoost/adaBoost.py)
+and [gradBoosting.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Gradient%20Boosting/gradBoosting.py)
