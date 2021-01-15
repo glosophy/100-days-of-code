@@ -34,7 +34,7 @@ X_train_std = sc.transform(X_train)
 X_test_std = sc.transform(X_test)
 
 # define XGBoost model
-xg_reg = xgb.XGBRegressor(n_features=2, n_redundant=0, n_clusters_per_class=2)
+xg_reg = xgb.XGBClassifier()
 
 xg_reg.fit(X_train_std, y_train)
 

@@ -104,6 +104,8 @@ tomorrow these same models on a bigger dataset with more features to see how it 
 and [gradBoosting.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Gradient%20Boosting/gradBoosting.py)
 
 ### Day 14: January 14, 2021
-**Today's Progress**: I tried using XGBoost with binary classification, but didn't succeed. Will try again tomorrow.
+**Today's Progress**: I used `XGBClassifier()` on the banknote dataset.
 
-**Thoughts:** I have to look closely into binary classification using `XGBRegressor()` 
+**Thoughts:** This model was the one that performed the best, throwing an accuracy of 100% and a AUC of 1.00.
+
+**Link to work:** [XGBoost.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/XGBoost/XGBoost.py)
