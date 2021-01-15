@@ -102,3 +102,8 @@ tomorrow these same models on a bigger dataset with more features to see how it 
 
 **Link to work:** [adaBoost.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/AdaBoost/adaBoost.py)
 and [gradBoosting.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Gradient%20Boosting/gradBoosting.py)
+
+### Day 14: January 14, 2021
+**Today's Progress**: I tried using XGBoost with binary classification, but didn't succeed. Will try again tomorrow.
+
+**Thoughts:** I have to look closely into binary classification using `XGBRegressor()` 
