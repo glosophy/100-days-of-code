@@ -109,3 +109,11 @@ and [gradBoosting.py](https://github.com/glosophy/100-days-of-code/blob/main/Pro
 **Thoughts:** This model was the one that performed the best, throwing an accuracy of 100% and a AUC of 1.00.
 
 **Link to work:** [XGBoost.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/XGBoost/XGBoost.py)
+
+### Day 15: January 15, 2021
+**Today's Progress**: I started doing some EDA and cleaning the US Census dataset.
+
+**Thoughts:** Everything I did today will help me get the data ready to run all the ensemble methods I covered during the 
+past week. The main idea is to see how all these methods perform on the US Census dataset.
+
+**Link to work:** [emsembleMethods.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/XGBoost/emsembleMethods.py)
