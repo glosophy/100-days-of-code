@@ -1,10 +1,12 @@
 # compare performance of different emsemble methods
-
-from sklearn.metrics import accuracy_score
+from sklearn import metrics
+from sklearn.metrics import accuracy_score, mean_squared_error, r2_score
 from sklearn.metrics import roc_curve, auc
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from sklearn.ensemble import AdaBoostClassifier
+from sklearn.ensemble import AdaBoostRegressor, GradientBoostingRegressor, RandomForestRegressor, BaggingRegressor
+from sklearn.tree import DecisionTreeRegressor, export_graphviz
+from pydotplus import graph_from_dot_data
+import xgboost as xgb
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
@@ -63,7 +65,7 @@ print(df.isnull().sum())
 print('--------'*10)
 
 # drop unnecessary columns
-drop = ['hwtfinl', 'wtfinl', 'year', 'serial', 'month']
+drop = ['hwtfinl', 'wtfinl', 'year', 'serial', 'month', 'cpsid', 'cpsidp', 'asecflag']
 df.drop(drop, axis=1, inplace=True)
 
 # check final number of rows and columns
@@ -127,3 +129,67 @@ plt.ylabel('Income')
 plt.xlabel('Age')
 plt.show()
 
+# %%-----------------------------------------------------------------------
+
+# split data into dependent variables and features
+y = df['incwage']
+X = df.loc[:, df.columns != 'incwage']
+
+# encode categorical features: dictionary mapping
+encode = ['race', 'sex', 'vetstat', 'citizen', 'occ1990', 'ind1990', 'wkstat',
+          'educ', 'schlcoll', 'diffany', 'migrate1', 'nchild']
+
+for i in encode:
+    labels = X[i].astype('category').cat.categories.tolist()
+    replace_map_comp = {i: {k: v for k, v in zip(labels, list(range(1, len(labels)+1)))}}
+    # replace values in dataframe
+    X.replace(replace_map_comp, inplace=True)
+
+# split data into train/test
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+
+# define models
+reg_tree = DecisionTreeRegressor()
+reg_bagging = BaggingRegressor(base_estimator=reg_tree)
+reg_adaBoost = AdaBoostRegressor()
+reg_gradBoost = GradientBoostingRegressor()
+reg_randomForest = RandomForestRegressor()
+reg_XGBoost = xgb.XGBRegressor()
+
+models = [reg_tree, reg_bagging, reg_adaBoost, reg_gradBoost, reg_randomForest, reg_XGBoost]
+
+cols = ['Model', 'R2Score', 'RMSE']
+rows = len(models)
+results = pd.DataFrame(columns=cols, index=range(rows))
+
+k = 0
+for i in models:
+    # fit and predict
+    i.fit(X_train, y_train)
+    y_pred = i.predict(X_test)
+
+    # evaluate
+    r2score = r2_score(y_test, y_pred)
+    mse = mean_squared_error(y_test, y_pred)
+    rmse = np.sqrt(mse)
+    print(mse)
+    print(rmse)
+    # false_positive_rate, true_positive_rate, thresholds = roc_curve(y_test, y_pred)
+    # roc_auc = round(auc(false_positive_rate, true_positive_rate), 3)
+    # table = metrics.confusion_matrix(y_test, y_pred)
+    # TP = table[1, 1]
+    # TN = table[0, 0]
+    # FP = table[0, 1]
+    # FN = table[1, 0]
+    # sens = TP / float(TP + FN)
+    # spec = TN / float(TN + FP)
+    # prec = TP / float(TP + FP)
+
+    # create df
+    results.loc[k].Model = '{}'.format(i)
+    results.loc[k].R2Score = r2score
+    results.loc[k].MSE = rmse
+
+    k += 1
+
+print(results)

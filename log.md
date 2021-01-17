@@ -114,6 +114,18 @@ and [gradBoosting.py](https://github.com/glosophy/100-days-of-code/blob/main/Pro
 **Today's Progress**: I started doing some EDA and cleaning the US Census dataset.
 
 **Thoughts:** Everything I did today will help me get the data ready to run all the ensemble methods I covered during the 
-past week. The main idea is to see how all these methods perform on the US Census dataset.
+past week. The main idea is to see how all these methods perform on the US Census dataset. I found [this article](https://www.pluralsight.com/guides/cleaning-up-data-from-outliers)
+about cleaning up data from outliers very useful.
 
 **Link to work:** [emsembleMethods.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/XGBoost/emsembleMethods.py)
+
+### Day 16: January 16, 2021
+**Today's Progress**: I finished preparing the different models and structured the project so it returns a dataframe
+with the models and its evaluation metrics. I mapped the categorical features to a dictionary that contained its corresponding
+numerical values. To do that, I followed [this DataCamp tutorial](https://www.datacamp.com/community/tutorials/categorical-data).
+
+**Thoughts:** The XGBoost model is overperforming the rest. Second is random forest. I might tune each of them to try to
+get the best performances from each of them.
+
+**Link to work:** [emsembleMethods.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/XGBoost/emsembleMethods.py)
+
