@@ -130,9 +130,9 @@ get the best performances from each of them.
 **Link to work:** [emsembleMethods.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/XGBoost/emsembleMethods.py)
 
 ### Day 17: January 17, 2021
-**Today's Progress**: I kept working on the different models and tuning them.
+**Today's Progress**: I kept working on the different models and tuning them. A final dataframe summarizes the different accuracies.
 
-**Thoughts:** The XGBoost model is overperforming the rest. 
+**Thoughts:** The XGBoost model outperforms the rest, followed by Gradient Boosting and Bagging.
 
 **Link to work:** [emsembleMethods.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/XGBoost/emsembleMethods.py)
 
