@@ -18,10 +18,10 @@ import shutil
 # get cwd
 cwd = os.getcwd()
 
-# # extract file from .gz file
-# with gzip.open(cwd + '/cps_00002.dta.gz', 'rb') as f_in:
-#     with open(cwd + '/cps_00002.dta', 'wb') as f_out:
-#         shutil.copyfileobj(f_in, f_out)
+# extract file from .gz file
+with gzip.open(cwd + '/cps_00002.dta.gz', 'rb') as f_in:
+    with open(cwd + '/cps_00002.dta', 'wb') as f_out:
+        shutil.copyfileobj(f_in, f_out)
 
 # read dta file
 df = pd.read_stata(cwd + '/cps_00002.dta')
