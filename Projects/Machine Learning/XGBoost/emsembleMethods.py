@@ -158,7 +158,7 @@ reg_XGBoost = xgb.XGBRegressor()
 
 models = [reg_tree, reg_bagging, reg_adaBoost, reg_gradBoost, reg_randomForest, reg_XGBoost]
 
-cols = ['Model', 'R2Score', 'RMSE']
+cols = ['Model', 'R2Score', 'MSE', 'RMSE']
 rows = len(models)
 results = pd.DataFrame(columns=cols, index=range(rows))
 
@@ -172,23 +172,12 @@ for i in models:
     r2score = r2_score(y_test, y_pred)
     mse = mean_squared_error(y_test, y_pred)
     rmse = np.sqrt(mse)
-    print(mse)
-    print(rmse)
-    # false_positive_rate, true_positive_rate, thresholds = roc_curve(y_test, y_pred)
-    # roc_auc = round(auc(false_positive_rate, true_positive_rate), 3)
-    # table = metrics.confusion_matrix(y_test, y_pred)
-    # TP = table[1, 1]
-    # TN = table[0, 0]
-    # FP = table[0, 1]
-    # FN = table[1, 0]
-    # sens = TP / float(TP + FN)
-    # spec = TN / float(TN + FP)
-    # prec = TP / float(TP + FP)
 
     # create df
     results.loc[k].Model = '{}'.format(i)
-    results.loc[k].R2Score = r2score
-    results.loc[k].MSE = rmse
+    results.loc[k].R2Score = round(r2score, 2)
+    results.loc[k].MSE = round(mse, 2)
+    results.loc[k].RMSE = round(rmse, 2)
 
     k += 1
 
