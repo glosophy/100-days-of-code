@@ -137,9 +137,13 @@ get the best performances from each of them.
 **Link to work:** [emsembleMethods.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/XGBoost/emsembleMethods.py)
 
 ### Day 18: January 18, 2021
-**Today's Progress**: I kept working on the different models and tuning them. A final dataframe summarizes the different accuracies.
+**Today's Progress**: I worked on the models' performance more by fine-tuning the models. Overall, it was worth allocating
+more time on this task since it increased their overall performance.
 
-**Thoughts:** The XGBoost model outperforms the rest, followed by Gradient Boosting and Bagging.
+**Thoughts:** After doing some `GridSearchCV`, I managed to get R2 scores of around 50% for all models except for AdaBoost. 
+All RMSEs decreased. AdaBoost was the one with the highest RMSE. Of all six models, the over-performing one was XGBoost,
+with an R2 score of 57% (the features explain 57% of the change in the income wage) and a RMSE of 26,128.
+The second best model was the GradBoost, with an R2 score of 55% and an RMSE of 26,738.
 
 **Link to work:** [emsembleMethods.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/XGBoost/emsembleMethods.py)
 

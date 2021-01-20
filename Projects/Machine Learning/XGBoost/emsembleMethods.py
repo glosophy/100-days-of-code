@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 import pandas as pd
+pd.set_option('display.max_columns', None)
 import os
 import gzip
 import shutil
@@ -126,6 +127,13 @@ plt.ylabel('Income')
 plt.xlabel('Age')
 plt.show()
 
+# check income vs age by citizen status
+sns.scatterplot(x=df['age'], y=df['incwage'], hue=df['diffany'])
+plt.title('incwage vs. age, by diffany')
+plt.ylabel('Income')
+plt.xlabel('Age')
+plt.show()
+
 # %%-----------------------------------------------------------------------
 
 # split data into dependent variables and features
@@ -159,6 +167,8 @@ models = [reg_tree, reg_bagging, reg_adaBoost, reg_gradBoost, reg_randomForest, 
 cols = ['Model', 'R2Score', 'MSE', 'RMSE']
 rows = len(models)
 results = pd.DataFrame(columns=cols, index=range(rows))
+models_names = ['Decision Trees', 'Bagging', 'AdaBoost', 'GraadBoost', 'Random Forest', 'XGBoost']
+results['Model'] = models_names
 
 k = 0
 for i in models:
@@ -172,7 +182,6 @@ for i in models:
     rmse = np.sqrt(mse)
 
     # create df
-    results.loc[k].Model = '{}'.format(i)
     results.loc[k].R2Score = round(r2score, 2)
     results.loc[k].MSE = round(mse, 2)
     results.loc[k].RMSE = round(rmse, 2)
