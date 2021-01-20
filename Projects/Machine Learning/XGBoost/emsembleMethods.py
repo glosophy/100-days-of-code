@@ -1,11 +1,8 @@
 # compare performance of different emsemble methods
-from sklearn import metrics
-from sklearn.metrics import accuracy_score, mean_squared_error, r2_score
-from sklearn.metrics import roc_curve, auc
+from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import AdaBoostRegressor, GradientBoostingRegressor, RandomForestRegressor, BaggingRegressor
-from sklearn.tree import DecisionTreeRegressor, export_graphviz
-from pydotplus import graph_from_dot_data
+from sklearn.tree import DecisionTreeRegressor
 import xgboost as xgb
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -149,12 +146,13 @@ for i in encode:
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 
 # define models
-reg_tree = DecisionTreeRegressor()
-reg_bagging = BaggingRegressor(base_estimator=reg_tree)
-reg_adaBoost = AdaBoostRegressor()
-reg_gradBoost = GradientBoostingRegressor()
-reg_randomForest = RandomForestRegressor()
-reg_XGBoost = xgb.XGBRegressor()
+reg_tree = DecisionTreeRegressor(random_state=42, max_depth=7, min_samples_leaf=5)
+reg_bagging = BaggingRegressor(base_estimator=reg_tree, random_state=42)
+reg_adaBoost = AdaBoostRegressor(base_estimator=reg_tree, random_state=42)
+reg_gradBoost = GradientBoostingRegressor(criterion='mse')
+reg_randomForest = RandomForestRegressor(random_state=42,
+                                         max_depth=7, min_samples_leaf=5)
+reg_XGBoost = xgb.XGBRegressor(max_depth=7)
 
 models = [reg_tree, reg_bagging, reg_adaBoost, reg_gradBoost, reg_randomForest, reg_XGBoost]
 
