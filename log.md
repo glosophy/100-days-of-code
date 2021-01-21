@@ -147,3 +147,11 @@ The second best model was the GradBoost, with an R2 score of 55% and an RMSE of 
 
 **Link to work:** [emsembleMethods.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/XGBoost/emsembleMethods.py)
 
+### Day 19: January 19, 2021
+**Today's Progress**: I cleaned and did some EDA on a direct phone call marketing campaign by a Portuguese bank. The dataset
+was downloaded from Kaggle and can be found [here](https://www.kaggle.com/yufengsui/portuguese-bank-marketing-data-set)
+
+**Thoughts:** `seaborn` > `matplotlib`. 
+
+**Link to work:** [binaryClassification.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Ensemble%20Binary/binaryClassification.py)
+
