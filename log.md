@@ -149,7 +149,9 @@ The second best model was the GradBoost, with an R2 score of 55% and an RMSE of 
 
 ### Day 19: January 19, 2021
 **Today's Progress**: I cleaned and did some EDA on a direct phone call marketing campaign by a Portuguese bank. The dataset
-was downloaded from Kaggle and can be found [here](https://www.kaggle.com/yufengsui/portuguese-bank-marketing-data-set)
+was downloaded from Kaggle and can be found [here](https://www.kaggle.com/yufengsui/portuguese-bank-marketing-data-set). I also
+used [this Stackoverflow link](https://stackoverflow.com/questions/38088652/pandas-convert-categories-to-numbers) to encode categorical
+columns in pandas. 
 
 **Thoughts:** `seaborn` > `matplotlib`. 
 
