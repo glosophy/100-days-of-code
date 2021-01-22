@@ -22,7 +22,7 @@ warnings.filterwarnings("ignore")
 cwd = os.getcwd()
 
 # read dataset
-df = pd.read_csv(cwd + '/Decision Tree/data_banknote_authentication.csv', header=None)
+df = pd.read_csv(cwd + '/data_banknote_authentication.csv', header=None)
 
 # assign name to columns
 df.columns = ['variance', 'skewness', 'curtosis', 'entropy', 'class']

@@ -157,3 +157,15 @@ columns in pandas.
 
 **Link to work:** [binaryClassification.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Ensemble%20Binary/binaryClassification.py)
 
+### Day 20: January 20, 2021
+**Today's Progress**: I ran some binary classification models on the bank marketing campaign dataset and summarized
+the results in a dataframe. 
+
+**Thoughts:** When working with imbalanced datasets, training accuracies don't tell much. Actually, they can be misleading.
+Instead, one should look at the precision and recall figures and evaluate the model based on those metrics. 
+The recall metric is basically the ability of the model to find all the positive samples. The precision number shows
+how many examples were classified correctly. If using `sklearn.metrics.recall_score` for binary classification, it
+is important to pass `average='binary'` as argument.
+
+**Link to work:** [binaryClassification.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Ensemble%20Binary/binaryClassification.py)
+
