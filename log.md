@@ -175,5 +175,5 @@ is important to pass `average='binary'` as argument.
 **Thoughts:** Although less interpretable, SVM is a very powerful model when it comes to classification problems. In this 
 case, it classified 100% of the classes correctly.
 
-**Link to work:** [binaryClassification.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Ensemble%20Binary/binaryClassification.py)
+**Link to work:** [SVM.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/SVM/SVM.py)
 
