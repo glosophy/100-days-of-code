@@ -172,8 +172,8 @@ is important to pass `average='binary'` as argument.
 ### Day 21: January 21, 2021
 **Today's Progress**: I started working on a very easy SVM model. Will try it on another dataset tomorrow.
 
-**Thoughts:** Although less interpretable, SVM is a very powerful model when it comes to classification problems. In this 
-case, it classified 100% of the classes correctly.
+**Thoughts:** Although less interpretable, SVM is a very powerful model when it comes to classification problems. It is
+ also a very flexible model to work with. In this case, it classified 100% of the classes correctly.
 
 **Link to work:** [SVM.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/SVM/SVM.py)
 
