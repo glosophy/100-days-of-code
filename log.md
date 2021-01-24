@@ -177,3 +177,11 @@ is important to pass `average='binary'` as argument.
 
 **Link to work:** [SVM.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/SVM/SVM.py)
 
+### Day 22: January 22, 2021
+**Today's Progress**: I ran another SVM model on a voice dataset. Will try a non-linear kernel tomorow.
+
+**Thoughts:** Although less interpretable, SVM is a very powerful model when it comes to classification problems. It is
+ also a very flexible model to work with. In this case, it classified 100% of the classes correctly.
+
+**Link to work:** [SVM2.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/SVM/SVM2.py)
+

@@ -12,48 +12,32 @@ import warnings
 
 warnings.filterwarnings("ignore")
 
-# read mushroom_data as panda dataframe
-mushroom_data = pd.read_csv("https://archive.ics.uci.edu/ml/machine-learning-databases/mushroom/agaricus-lepiota.data",
-                            sep=',', header=None)
+df = pd.read_csv('voice.csv')
 
-# define column names
-mushroom_data.columns = ['class', 'cap-shape', 'cap-surface', 'cap-color', 'bruises', 'odor', 'gill-attachment',
-                         'gill-spacing', 'gill-size', 'gill-color', 'stalk-shape', 'stalk-root',
-                         'stalk-surf-abv-ring', 'stalk-surf-bel-ring', 'stalk-color-abv-ring', 'stalk-color-bel-ring',
-                         'veil-type', 'veil-color', 'ring-number', 'ring-type',
-                         'spore-print-color', 'population', 'habitat']
+# print first rows
+print(df.head())
+print('-------'*10)
 
-# print first few rows
-mushroom_data.head()
-
-# replace missing characters as NaN
-mushroom_data.replace('?', np.NaN, inplace=True)
-
-# check the structure of mushroom_data
-mushroom_data.info()
+# check the structure of data
+df.info()
+print('-------'*10)
 
 # check the null values in each column
-print(mushroom_data.isnull().sum())
+print(df.isnull().sum())
+print('-------'*10)
 
 # print summary of data
-mushroom_data.describe(include='all')
+print(df.describe())
+print('-------'*10)
 
-# replace categorical mushroom_data with the most frequent value in that column
-mushroom_data = mushroom_data.apply(lambda x: x.fillna(x.value_counts().index[0]))
+# split dataset into dependent and independent variables
+y = df['label']
+X = df.loc[:, df.columns != 'label']
 
-# again check the null values in each column
-mushroom_data.isnull().sum()
-
-# encode features using get dummies
-X_data = pd.get_dummies(mushroom_data.iloc[:, 1:])
-X = X_data.values
-
-# encoding the dependent variable
-Y_data = mushroom_data.values[:, 0]
+# encode labels
 class_le = LabelEncoder()
-
 # fit and transform the class
-y = class_le.fit_transform(Y_data)
+y = class_le.fit_transform(y)
 
 # split data into train and test
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=10)
@@ -74,7 +58,6 @@ print('-------' * 7)
 print("Accuracy: ", accuracy_score(y_test, y_pred) * 100)
 print('-------' * 7)
 
-
 # display top 20 features (top 10 max positive and negative coefficient values)
 def coef_values(coef, names):
     imp = coef
@@ -94,14 +77,14 @@ def coef_values(coef, names):
 
 
 # get the names of columns
-features_names = X_data.columns
+features_names = X.columns
 
 # call the function
 coef_values(clf.coef_, features_names)
 
 # confusion matrix
 conf_matrix = confusion_matrix(y_test, y_pred)
-class_names = mushroom_data['class'].unique()
+class_names = df['label'].unique()
 
 df_cm = pd.DataFrame(conf_matrix, index=class_names, columns=class_names)
 plt.figure(figsize=(5, 5))
@@ -109,17 +92,16 @@ hm = sns.heatmap(df_cm, cbar=False, annot=True, square=True, fmt='d', annot_kws=
                  xticklabels=df_cm.columns)
 hm.yaxis.set_ticklabels(hm.yaxis.get_ticklabels(), rotation=0, ha='right', fontsize=10)
 hm.xaxis.set_ticklabels(hm.xaxis.get_ticklabels(), rotation=0, ha='right', fontsize=10)
+plt.title('Confusion Matrix')
 plt.ylabel('True label', fontsize=12)
 plt.xlabel('Predicted label', fontsize=12)
-
-# show heat map
 plt.tight_layout()
 plt.show()
 
 # plot ROC Area Under Curve
-y_pred_proba = clf.decision_function(X_test)
-fpr, tpr, _ = roc_curve(y_test, y_pred_proba)
-auc = roc_auc_score(y_test, y_pred_proba)
+y_pred_prob = clf.decision_function(X_test)
+fpr, tpr, _ = roc_curve(y_test, y_pred_prob)
+auc = roc_auc_score(y_test, y_pred_prob)
 
 plt.figure()
 lw = 2
@@ -133,3 +115,4 @@ plt.ylabel('True Positive Rate')
 plt.title('Receiver operating characteristic example')
 plt.legend(loc="lower right")
 plt.show()
+
