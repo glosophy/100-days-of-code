@@ -178,10 +178,20 @@ is important to pass `average='binary'` as argument.
 **Link to work:** [SVM.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/SVM/SVM.py)
 
 ### Day 22: January 22, 2021
-**Today's Progress**: I ran another SVM model on a voice dataset. Will try a non-linear kernel tomorow.
+**Today's Progress**: I ran another SVM model on a voice dataset. Will try a non-linear kernel tomorrow.
 
 **Thoughts:** Although less interpretable, SVM is a very powerful model when it comes to classification problems. It is
  also a very flexible model to work with. In this case, it classified 100% of the classes correctly.
 
 **Link to work:** [SVM2.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/SVM/SVM2.py)
+
+### Day 23: January 23, 2021
+**Today's Progress**: I prepared and cleaned a dataset from UCI on [chronic kidney disease](https://archive.ics.uci.edu/ml/datasets/Chronic_Kidney_Disease).
+
+**Thoughts:** As I was EDAing the dataset I ran into the following question: How do you go around using `StandardScaler()`
+when you have both categorical and numeric features measured at different scales? I read [this article](https://towardsai.net/p/data-science/how-when-and-why-should-you-normalize-standardize-rescale-your-data-3f083def38ff)
+but it only explained how and when to standardize/normalize your data. It didn't say much about this problem I ran into.
+I guess I'll do more research and try to pick up where I left off tomorrow when I have more info.
+
+**Link to work:** [KNN.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/KNN/KNN.py)
 
