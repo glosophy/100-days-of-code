@@ -195,3 +195,16 @@ I guess I'll do more research and try to pick up where I left off tomorrow when 
 
 **Link to work:** [KNN.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/KNN/KNN.py)
 
+### Day 24: January 24, 2021
+**Today's Progress**: I realized some of the features in the dataset had missing values, so I filled those `nan` with the mode.
+I used `pd.get_dummies` on the categorical features and then `MinMaxScaler()` to coerce all the features
+to a 0-1 scale. I evaluated the model on the accuracy score, classification report, and confusion matrix.
+
+**Thoughts:** Normalizing the data made all the difference. The model went from an accuracy of 68% to one of 97.5%.
+The classification report threw a weighted precision of 0.69 and weighted recall of 0.69 for the model with no feature
+normalization. After applying `MinMaxScaler()`, those figures increased to 0.98 and 0.97, respectively. One thing that
+I take from this modeling exercise is that categorical features are dummies, and continuous/nominal features
+should be standardized or normalized before fitting them into the model.
+
+**Link to work:** [KNN.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/KNN/KNN.py)
+
