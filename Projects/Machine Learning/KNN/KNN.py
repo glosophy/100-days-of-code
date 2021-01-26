@@ -84,7 +84,7 @@ clf.fit(X_train, y_train)
 y_pred = clf.predict(X_test)
 
 # evaluate models
-print("Classification Report: ")
+print("CLASSIFICATION REPORT WITHOUT FEATURE NORMALIZATION:")
 print(classification_report(y_test, y_pred))
 print('-------' * 10)
 print("Accuracy : ", round(accuracy_score(y_test, y_pred) * 100, 2))
@@ -136,7 +136,7 @@ clf.fit(X_train_sc, y_train)
 y_pred_sc = clf.predict(X_test_sc)
 
 # evaluate models
-print("Classification Report: ")
+print("CLASSIFICATION REPORT WITH FEATURE NORMALIZATION:")
 print(classification_report(y_test, y_pred_sc))
 print('-------' * 10)
 print("Accuracy : ", round(accuracy_score(y_test, y_pred_sc) * 100, 2))
