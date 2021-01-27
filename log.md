@@ -208,3 +208,8 @@ should be standardized or normalized before fitting them into the model.
 
 **Link to work:** [KNN.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/KNN/KNN.py)
 
+### Day 25: January 25, 2021
+**Today's Progress**: Started working on the dataset to get it ready for the model.
+
+**Link to work:** [KNN.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/KNN/KNN.py)
+
