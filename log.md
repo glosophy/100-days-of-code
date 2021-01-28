@@ -213,3 +213,12 @@ should be standardized or normalized before fitting them into the model.
 
 **Link to work:** [naiveBayes.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Naive%20Bayes/naiveBayes.py)
 
+### Day 26: January 26, 2021
+**Today's Progress**: I finished cleaning the dataset and ran `GaussianNB()` on the dataset.
+
+**Thoughts:** I am not sure about how I feel about `GaussianNB()`. I would have thought this model was going to perform 
+better than it actually did. I got an accuracy of 79% with a recall of 0.32 for the `1` class and 0.81 for the `0` class.
+The precision score for both classes was 0.68 and 0.81, respectively. If I had to choose a model for this classification
+problem, I would use a different classifier, maybe `XGBoost`.
+
+**Link to work:** [naiveBayes.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Naive%20Bayes/naiveBayes.py)
