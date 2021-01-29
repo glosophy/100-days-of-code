@@ -24,7 +24,6 @@ km = KMeans(
 )
 y_km = km.fit_predict(X)
 
-
 # plot the 3 clusters
 plt.scatter(
     X[y_km == 0, 0], X[y_km == 0, 1],
