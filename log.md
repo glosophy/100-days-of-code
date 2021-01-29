@@ -229,4 +229,4 @@ to perform k-Means on some random blobs I created.
 
 **Thoughts:** I wonder how would `KMeans` work on a particular dataset. 
 
-**Link to work:** [kMeans.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Naive%20Bayes/naiveBayes.py)
+**Link to work:** [kMeans.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/KMeans/kMeans.py)
