@@ -222,3 +222,11 @@ The precision score for both classes was 0.68 and 0.81, respectively. If I had t
 problem, I would use a different classifier, maybe `XGBoost`.
 
 **Link to work:** [naiveBayes.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Naive%20Bayes/naiveBayes.py)
+
+### Day 27: January 27, 2021
+**Today's Progress**: I followed [this article](https://towardsdatascience.com/k-means-clustering-with-scikit-learn-6b47a369a83c) 
+to perform k-Means on some random blobs I created.
+
+**Thoughts:** I wonder how would `KMeans` work on a particular dataset. 
+
+**Link to work:** [kMeans.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/Naive%20Bayes/naiveBayes.py)
