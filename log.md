@@ -241,4 +241,4 @@ the first two problems.
 to properly sort the array before finding the missing value. But once I sorted that out (no pun intended), the rest came easy.
 I am really having a lot of fun with these problems. 
 
-**Link to work:** [kMeans.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/KMeans/kMeans.py)
+**Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)
