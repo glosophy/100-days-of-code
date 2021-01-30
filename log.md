@@ -230,3 +230,15 @@ to perform k-Means on some random blobs I created.
 **Thoughts:** I wonder how would `KMeans` work on a particular dataset. 
 
 **Link to work:** [kMeans.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/KMeans/kMeans.py)
+
+### Day 28: January 28, 2021
+**Today's Progress**: I started a short programming problems challenge by Santiago. I ran into [his tweet](https://twitter.com/svpino/status/1354048200601198593?s=20)
+a couple of weeks ago and thought it would be good to do these problems as part of the `#100DaysOfCode`. Today I finished
+the first two problems. 
+
+**Thoughts:** The first problem consisted of sorting an array in place. I remembered how to do that from my Data Mining class.
+`list[::-1]` is a savior. The second problem took me a little bit more of time. At first I didn't realize I needed two for loops
+to properly sort the array before finding the missing value. But once I sorted that out (no pun intended), the rest came easy.
+I am really having a lot of fun with these problems. 
+
+**Link to work:** [kMeans.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Machine%20Learning/KMeans/kMeans.py)
