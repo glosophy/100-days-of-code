@@ -87,38 +87,52 @@ def find_small_large(lst):
 find_small_large(e)
 print('-------------' * 5)
 
+# ANOTHER WAY: 5. Write a function that finds the largest and smallest number in an unsorted array.
+
+e = [7, 5, 6, 2, 1, 3, 4, 5, 6, 14, 20, 0, 2, 8, 10, 9]
+
+
+def find_small_large(lst):
+    min_number = lst[0]
+    max_number = lst[0]
+    for i in range(len(lst)):
+        if lst[i] < min_number:
+            min_number = lst[i]
+        elif lst[i] > max_number:
+            max_number = lst[i]
+    print('Smallest number in the list is:', min_number)
+    print('Largest number in the list is:', max_number)
+    print(lst)
+
+
+find_small_large(e)
+print('-------------' * 5)
+
 # 6. Write a function that finds a subarray whose sum is equal to a given value.
 
 f = [7, 5, 6, 2, 1, 3, 4, 5, 6, 11, 12, 14, 20, 13, 15, 16, 17, 0, 2, 8, 10, 9]
 
 
 def sum_array(lst, n):
-    for i in range(len(lst)):
-        for j in range(i + 1, len(lst)):
-            if lst[i] > lst[j]:
-                lst[i], lst[j] = lst[j], lst[i]
-
     for k in range(len(lst)):
         for j in range(1 + k, len(lst)):
             if sum(lst[k:j]) == n:
-                print('Subarray:', lst[k:j])
-                print('Sum:', n)
+                print('Subarray whose sum is equal to {}:'.format(n), lst[k:j])
 
 
-sum_array(f, 20)
+sum_array(f, 24)
 print('-------------' * 5)
-
 
 # 7. Write a function that finds the contiguous subarray of a given size with the largest sum.
 
 g = [7, 5, 6, 2, 1, 3, 4, 5, 6, 11, 12, 14, 20, 13, 15, 16, 17, 0, 2, 8, 10, 9]
+
 
 def largest_sum(lst, size):
     for i in range(len(lst)):
         for j in range(i + 1, len(lst)):
             if lst[i] > lst[j]:
                 lst[i], lst[j] = lst[j], lst[i]
-    print(lst)
 
     print('Subarray of size {}:'.format(size), lst[-size:])
     print('Sum:', sum(lst[-size:]))
@@ -127,10 +141,7 @@ def largest_sum(lst, size):
 largest_sum(g, 7)
 print('-------------' * 5)
 
-
 # 8. Write a function that, given two arrays, finds the longest common subarray present in both of them.
 
 g = [7, 5, 6, 2, 1, 3, 4, 5, 6, 11, 12, 14, 20, 13, 15, 16, 17, 0, 2, 8, 10, 9]
 a = [1, 2, 3, 4, 5, 6, 7, 8]
-
-

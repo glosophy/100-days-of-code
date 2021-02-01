@@ -263,3 +263,14 @@ in an unsorted array containing every number from 1 to 100. I don't know how I d
 ended up creating an empty array, and `if is in` the empty array, I appended all numbers in the array passed in the function.
 
 **Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)
+
+### Day 31: January 31, 2021
+**Today's Progress**: I edited the code I had written for #5: Write a function that finds the largest and smallest number in an unsorted array.
+In [this tweet](https://twitter.com/svpino/status/1356034303810039812?s=20), Santiago suggested to try to do just a single
+for loop instead of two. I also made edits in #6. I got rid of the loop that ordered the array. I felt like I was cheating
+or taking a shortcut, and maybe defeating the whole purpose of the "unsorted array" part of the question.
+
+**Thoughts:** I am so glad that I got to revisit those problems. It makes much more sense now, and both #5 and #6 are
+computationally less expensive since I am only using one for loop instead of two. 
+
+**Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)
