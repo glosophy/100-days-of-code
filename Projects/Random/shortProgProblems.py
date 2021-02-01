@@ -10,7 +10,7 @@ def reverse(l):
 
 
 print(reverse(a))
-print('-------------'*5)
+print('-------------' * 5)
 
 # 2. Write a function that finds the missing number in an unsorted array containing every one of
 # the other 99 numbers ranging from 1 to 100.
@@ -31,7 +31,7 @@ def find_missing_number(lst):
 
 
 find_missing_number(b)
-print('-------------'*5)
+print('-------------' * 5)
 
 # 3. Write a function that finds the duplicate number in an unsorted array containing every number from 1 to 100.
 
@@ -50,7 +50,7 @@ def find_duplicate_number(lst):
 
 
 find_duplicate_number(c)
-print('-------------'*5)
+print('-------------' * 5)
 
 # 4. Write a function that removes every duplicate value in an array.
 
@@ -58,19 +58,79 @@ d = [7, 5, 6, 2, 1, 3, 4, 5, 6, 2, 8, 10, 9]  # 5, 2, and 6 are duplicates
 
 
 def remove_duplicate_number(lst):
+    res = []
+    for i in lst:
+        if i not in res:
+            res.append(i)
+    print('Final list: ', res)
+
+
+remove_duplicate_number(d)
+print('-------------' * 5)
+
+# 5. Write a function that finds the largest and smallest number in an unsorted array.
+
+e = [7, 5, 6, 2, 1, 3, 4, 5, 6, 14, 20, 0, 2, 8, 10, 9]
+
+
+def find_small_large(lst):
     for i in range(len(lst)):
         for j in range(i + 1, len(lst)):
             if lst[i] > lst[j]:
                 lst[i], lst[j] = lst[j], lst[i]
 
-    remove = []
-    for k in range(len(lst)):
-        for l in range(k + 1, len(lst)):
-            if lst[k] == lst[l]:
-                print('{} is duplicated and has been removed'.format(lst[l]))
-                # remove.append(lst[k])
-            lst = lst.pop(lst[l])
-    print('Final list: ', lst)
+    print('Smallest number in the list is:', lst[0])
+    print('Largest number in the list is:', lst[-1])
+    print(lst)
 
-remove_duplicate_number(d)
-print('-------------'*5)
+
+find_small_large(e)
+print('-------------' * 5)
+
+# 6. Write a function that finds a subarray whose sum is equal to a given value.
+
+f = [7, 5, 6, 2, 1, 3, 4, 5, 6, 11, 12, 14, 20, 13, 15, 16, 17, 0, 2, 8, 10, 9]
+
+
+def sum_array(lst, n):
+    for i in range(len(lst)):
+        for j in range(i + 1, len(lst)):
+            if lst[i] > lst[j]:
+                lst[i], lst[j] = lst[j], lst[i]
+
+    for k in range(len(lst)):
+        for j in range(1 + k, len(lst)):
+            if sum(lst[k:j]) == n:
+                print('Subarray:', lst[k:j])
+                print('Sum:', n)
+
+
+sum_array(f, 20)
+print('-------------' * 5)
+
+
+# 7. Write a function that finds the contiguous subarray of a given size with the largest sum.
+
+g = [7, 5, 6, 2, 1, 3, 4, 5, 6, 11, 12, 14, 20, 13, 15, 16, 17, 0, 2, 8, 10, 9]
+
+def largest_sum(lst, size):
+    for i in range(len(lst)):
+        for j in range(i + 1, len(lst)):
+            if lst[i] > lst[j]:
+                lst[i], lst[j] = lst[j], lst[i]
+    print(lst)
+
+    print('Subarray of size {}:'.format(size), lst[-size:])
+    print('Sum:', sum(lst[-size:]))
+
+
+largest_sum(g, 7)
+print('-------------' * 5)
+
+
+# 8. Write a function that, given two arrays, finds the longest common subarray present in both of them.
+
+g = [7, 5, 6, 2, 1, 3, 4, 5, 6, 11, 12, 14, 20, 13, 15, 16, 17, 0, 2, 8, 10, 9]
+a = [1, 2, 3, 4, 5, 6, 7, 8]
+
+

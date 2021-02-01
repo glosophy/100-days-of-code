@@ -244,12 +244,22 @@ I am really having a lot of fun with these problems.
 **Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)
 
 ### Day 29: January 29, 2021
-**Today's Progress**: I am still working on Santiago's programming challenge. I solved #3: Write a function that finds 
+**Today's Progress**: I am still working on [Santiago's programming challenge](https://twitter.com/svpino/status/1354048200601198593?s=20). I solved #3: Write a function that finds 
 the duplicate number in an unsorted array containing every number from 1 to 100. But I got a little stuck with #4.
 
 **Thoughts:** The first problem I tackled today was somewhat easy. I also used much of the code I had written yesterday.
 I am still not entirely sure about how to approach #4. It looks like when I use `list.remove(element)`, the elements is
 removed from the list, but when the for loop starts back again, the length of the list is being overwritten by the 
 length of the list that is passed in the function and it doesn't take into account the removed element in the inner loop. 
+
+**Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)
+
+### Day 30: January 30, 2021
+**Today's Progress**: I continued doing [Santiago's programming challenge](https://twitter.com/svpino/status/1354048200601198593?s=20).
+I solved problems #4, 5, 6, and 7. Got stuck with number 8 somehow. Will give it another try tomorrow.
+
+**Thoughts:** Yesterday I had had some issues while tackling #4: Write a function that removes every duplicate number 
+in an unsorted array containing every number from 1 to 100. I don't know how I didn't figure this out yesterday... But I eventually
+ended up creating an empty array, and `if is in` the empty array, I appended all numbers in the array passed in the function.
 
 **Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)
