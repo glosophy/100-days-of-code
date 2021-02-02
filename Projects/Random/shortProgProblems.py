@@ -129,13 +129,15 @@ g = [7, 5, 6, 2, 1, 3, 4, 5, 6, 11, 12, 14, 20, 13, 15, 16, 17, 0, 2, 8, 10, 9]
 
 
 def largest_sum(lst, size):
-    for i in range(len(lst)):
-        for j in range(i + 1, len(lst)):
-            if lst[i] > lst[j]:
-                lst[i], lst[j] = lst[j], lst[i]
+    list_chunk = lst[0:size]
+    largest_sum = sum(list_chunk)
+    for i in range(len(lst)-size):
+        if sum(lst[i:i+size]) > largest_sum:
+            list_chunk = lst[i:i+size]
+            largest_sum = sum(lst[i:i+size])
 
-    print('Subarray of size {}:'.format(size), lst[-size:])
-    print('Sum:', sum(lst[-size:]))
+    print('Subarray of size {}:'.format(size), list_chunk)
+    print('Sum:', largest_sum)
 
 
 largest_sum(g, 7)

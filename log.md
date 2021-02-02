@@ -273,4 +273,8 @@ or taking a shortcut, and maybe defeating the whole purpose of the "unsorted arr
 **Thoughts:** I am so glad that I got to revisit those problems. It makes much more sense now, and both #5 and #6 are
 computationally less expensive since I am only using one for loop instead of two. 
 
+*Update: just tweeted my new solution to Santiago and [he replied](https://twitter.com/svpino/status/1356388426094927872?s=20) 
+with the following: "This solution is `O(n)`. In English, it means that the solution is "linear": the runtime 
+grows linearly with the size of the list. That's much faster than the 2-loop solution which was `O(n^2)`."*
+
 **Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)
