@@ -278,3 +278,11 @@ with the following: "This solution is `O(n)`. In English, it means that the solu
 grows linearly with the size of the list. That's much faster than the 2-loop solution which was `O(n^2)`."*
 
 **Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)
+
+### Day 32: February 01, 2021
+**Today's Progress**: I improved #6: Write a function that finds a subarray whose sum is equal to a given value.
+
+**Thoughts:** I am still trying to figure out if I can solve this one with just one for loop. I can't come up with
+a solution that would fit that requirement. I guess I will move onto the next problem and come back to this one later.
+
+**Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)

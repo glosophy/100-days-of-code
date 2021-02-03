@@ -114,10 +114,10 @@ f = [7, 5, 6, 2, 1, 3, 4, 5, 6, 11, 12, 14, 20, 13, 15, 16, 17, 0, 2, 8, 10, 9]
 
 
 def sum_array(lst, n):
-    for k in range(len(lst)):
-        for j in range(1 + k, len(lst)):
-            if sum(lst[k:j]) == n:
-                print('Subarray whose sum is equal to {}:'.format(n), lst[k:j])
+    for i in range(len(lst)):
+        for j in range(1 + i, len(lst)):
+            if sum(lst[i:j]) == n:
+                print('Subarray whose sum is equal to {}:'.format(n), lst[i:j])
 
 
 sum_array(f, 24)
