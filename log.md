@@ -286,3 +286,12 @@ grows linearly with the size of the list. That's much faster than the 2-loop sol
 a solution that would fit that requirement. I guess I will move onto the next problem and come back to this one later.
 
 **Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)
+
+### Day 33: February 02, 2021
+**Today's Progress**: I finally finished putting together [my website](www.glosophy.org)!
+
+**Thoughts:** It took me a good week to finally finish it. This will help me build my portfolio and put my work out there.
+I will be updating it regularly with my Medium articles, talks on dataviz, code snippets, and other stuff I will be 
+doing in the upcoming months.
+
+**Link to work:** [gLosophy](www.glosophy.org)
