@@ -295,3 +295,14 @@ I will be updating it regularly with my Medium articles, talks on dataviz, code 
 doing in the upcoming months.
 
 **Link to work:** [gLosophy](www.glosophy.org)
+
+### Day 34: February 03, 2021
+**Today's Progress**: I started solving #8: Write a function that, given two arrays, finds the longest common subarray present in both of them.
+But I could not finish it. 
+
+**Thoughts:** I wrote some sort of pseudo code that helped me get started. I think I'll start doing that from now on 
+to make sure I understand the problem first and how to actually iterate through the different elements. I am having 
+issues trying to see if `placeholder_list`, which is a chunk of `list1`, is in `list2`. Should I do that with `intersect()`
+or what? I might look into that tomorrow.  
+
+**Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)
