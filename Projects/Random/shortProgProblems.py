@@ -150,19 +150,28 @@ sub_list = [1, 2, 3, 4, 7, 9]
 
 
 def common_subarray(list1, list2):
-    length_list = 0
-    final_common_list = []
-    k = 0
-
+    final_list1 = []
+    final_list2 = []
     for i in range(len(list1)):
-        placeholder_list = list1[k:i]
-        print(placeholder_list.intersection(list2))
-        # if placeholder_list.intersection(list2) == placeholder_list:
-        print('True')#and len(placeholder_list)>length_list:
-        final_common_list = placeholder_list
-        length_list = len(placeholder_list)
+        for j in range(1, len(list1)):
+            l1 = list1[i:j]
+            if len(l1) > 0:
+                final_list1.append(l1)
 
-        print(length_list)
-        print(placeholder_list)
+    for k in range(len(list2)):
+        for l in range(1, len(list2)):
+            l2 = list2[k:l]
+            if len(l2) > 0:
+                final_list2.append(l2)
+
+    length = []
+    for m in final_list1:
+        for n in final_list2:
+            if m == n and len(m) > len(length):
+                length = m
+
+    print('Largest common subarray:', length)
+
 
 common_subarray(main_list, sub_list)
+# Largest common subarray: [1, 2, 3, 4]

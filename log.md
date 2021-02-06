@@ -306,3 +306,12 @@ issues trying to see if `placeholder_list`, which is a chunk of `list1`, is in `
 or what? I might look into that tomorrow.  
 
 **Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)
+
+### Day 35: February 04, 2021
+**Today's Progress**: I finally figured out how to solve #8.
+
+**Thoughts:** It is not the most efficient code out there, but after giving this problem more thought, I finally
+got the results I wanted! One thing that helped a lot was to write down in a piece of paper some sort of pseudo code, and
+simulate a for loop. That helped me a lot to figure out how to iterate through each list.
+
+**Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)
