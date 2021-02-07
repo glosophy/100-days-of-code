@@ -170,8 +170,33 @@ def common_subarray(list1, list2):
             if m == n and len(m) > len(length):
                 length = m
 
-    print('Largest common subarray:', length)
+    print('Longest common subarray:', length)
 
 
 common_subarray(main_list, sub_list)
-# Largest common subarray: [1, 2, 3, 4]
+print('-------------' * 5)
+
+
+# -----------------------------------------------------
+
+def common_subarray_improved(list1, list2):
+
+    max_length = []
+
+    for i in range(1, len(list1) + 1):
+        for j in range(1, len(list2) + 1):
+            if list1[i - 1] == list2[j - 1]:
+                if list1[i] == list2[j]:
+                    a = list1[i - 1]
+                    max_length.append(a)
+                else:
+                    b = list1[i - 1]
+                    max_length.append(b)
+
+    print(max_length)
+
+
+    print('Longest common subarray:')
+
+
+common_subarray_improved(main_list, sub_list)

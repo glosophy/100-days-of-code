@@ -315,3 +315,13 @@ got the results I wanted! One thing that helped a lot was to write down in a pie
 simulate a for loop. That helped me a lot to figure out how to iterate through each list.
 
 **Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)
+
+### Day 36: February 05, 2021
+**Today's Progress**: I am still trying to find a more efficient way of solving #8 after Santiago [recommended me](https://twitter.com/svpino/status/1357902227554377731?s=20)
+to look for a more dynamic solution. 
+
+**Thoughts:** After looking into other people's aprroaches to longest common substring, I am still hesitant about the approach
+I'm using. I would eventually like my function to return the longest common subarray in the form of an array, not
+just the length of the array. The latter I have already done, but it's the former that I cannot solve still.
+
+**Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)
