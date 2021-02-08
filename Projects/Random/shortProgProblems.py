@@ -200,3 +200,7 @@ def common_subarray_improved(list1, list2):
 
 
 common_subarray_improved(main_list, sub_list)
+
+
+# 9. Write a function that finds the length of the shortest array that contains both input arrays as subarrays.
+
