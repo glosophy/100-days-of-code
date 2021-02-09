@@ -180,26 +180,24 @@ print('-------------' * 5)
 # -----------------------------------------------------
 
 def common_subarray_improved(list1, list2):
+    last = [0 for _ in range(len(list2) + 1)]
+    max_length = 0
 
-    max_length = []
+    for i in range(1, len(list1)+1):
+        current = [0 for _ in range(len(list1)+1)]
 
-    for i in range(1, len(list1) + 1):
-        for j in range(1, len(list2) + 1):
-            if list1[i - 1] == list2[j - 1]:
-                if list1[i] == list2[j]:
-                    a = list1[i - 1]
-                    max_length.append(a)
-                else:
-                    b = list1[i - 1]
-                    max_length.append(b)
+        for j in range(1, len(list2)+1):
+            if list1[i-1] == list2[j-1]:
+                current[j] = 1 + last[j-1]
+                max_length = max(max_length, current[j])
 
-    print(max_length)
-
-
-    print('Longest common subarray:')
+        last = current
+    print('Longest common subarray:', max_length)
 
 
 common_subarray_improved(main_list, sub_list)
+# Longest common array: 4
+
 
 
 # 9. Write a function that finds the length of the shortest array that contains both input arrays as subarrays.

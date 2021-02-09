@@ -334,3 +334,12 @@ to look for a more dynamic solution.
 returned by the function still contains an element that does not belong in the common subarray.
 
 **Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)
+
+### Day 38: February 07, 2021
+**Today's Progress**: I ended up settling for returning just the length of the common subarray. I followed [this article](https://www.geeksforgeeks.org/longest-common-substring-dp-29/).
+
+**Thoughts:** This dynamic solution worked definitely better than the first approach I took. The first time I used three
+for loops to iterate over the elements of both lists. Now I'm only using two for loops, which makes the whole function
+less computationally expensive.
+
+**Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)
