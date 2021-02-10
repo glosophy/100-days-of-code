@@ -343,3 +343,14 @@ for loops to iterate over the elements of both lists. Now I'm only using two for
 less computationally expensive.
 
 **Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)
+
+### Day 39: February 08, 2021
+**Today's Progress**: I took a break from Santiago's programming problems to fresh up on [Monte Carlo simulations](https://pbpython.com/monte-carlo.html).
+I used [this Interview Query problem](https://www.interviewquery.com/questions/nightly-job) to run a Monte Carlo experiment
+and calculate how much the overlapping of two computing jobs would cost to a certain company.
+
+**Thoughts:** Monte Carlo it just a fancy way of saying that one will run an experiment several times to be able to rely on more
+accurate probabilities. For this particular problem, I ran the experiment `range(1, 50000, 100)` times. I also plotted
+the probabilities aby the number of simulations and the graph shows how the probability converges after 1,000 simulations.
+
+**Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)
