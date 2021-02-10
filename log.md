@@ -353,4 +353,4 @@ and calculate how much the overlapping of two computing jobs would cost to a cer
 accurate probabilities. For this particular problem, I ran the experiment `range(1, 50000, 100)` times. I also plotted
 the probabilities aby the number of simulations and the graph shows how the probability converges after 1,000 simulations.
 
-**Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)
+**Link to work:** [MonteCarlo.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Interview%20Questions/MonteCarlo.py)
