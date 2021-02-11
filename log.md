@@ -354,3 +354,15 @@ accurate probabilities. For this particular problem, I ran the experiment `range
 the probabilities aby the number of simulations and the graph shows how the probability converges after 1,000 simulations.
 
 **Link to work:** [MonteCarlo.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Interview%20Questions/MonteCarlo.py)
+
+### Day 40: February 09, 2021
+**Today's Progress**: I have been interested in crypto for a long time now, so I decided to start creating some sort of 
+a program that tells you when is a good time to sell or buy crypto based on historical prices. I followed [this tutorial](https://medium.com/better-programming/get-the-price-of-cryptocurrencies-in-real-time-using-python-cdaf07516479)
+to get a better sense of how to do the web scraping with `bs4`. 
+
+**Thoughts:** I will try to make the program send me texts everytime there is a price update. I could probably create 
+two different types of notifications: regular notifications and emergency notifications. Regular notifications would be sent 
+probably every two hours, and emergency notifications would be sent when the crypto price moves above/below a certain
+threshold.
+
+**Link to work:** [MonteCarlo.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Interview%20Questions/MonteCarlo.py)
