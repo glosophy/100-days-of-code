@@ -365,4 +365,4 @@ two different types of notifications: regular notifications and emergency notifi
 probably every two hours, and emergency notifications would be sent when the crypto price moves above/below a certain
 threshold.
 
-**Link to work:** [MonteCarlo.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Interview%20Questions/MonteCarlo.py)
+**Link to work:** [Crypto.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/Crypto.py)
