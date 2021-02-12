@@ -366,3 +366,14 @@ probably every two hours, and emergency notifications would be sent when the cry
 threshold.
 
 **Link to work:** [Crypto.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/Crypto.py)
+
+### Day 41: February 10, 2021
+**Today's Progress**: I'm still working on trying to make this app send me text messages or telegram notifications when
+the crypto prices either increase or decrease. 
+
+**Thoughts:** I am wondering if this program should eventually turn into a mobile app or web app for personal use only.
+Some questions that I still need answer for: how can I have an app running all day? I guess I have to host it somewhere.
+If so, where? How much would it cost? I know I'm some steps ahead, but it would be good to start looking into this early
+rather than late.
+
+**Link to work:** [Crypto.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/Crypto.py)
