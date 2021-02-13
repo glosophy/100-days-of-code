@@ -368,12 +368,20 @@ threshold.
 **Link to work:** [Crypto.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/Crypto.py)
 
 ### Day 41: February 10, 2021
-**Today's Progress**: I'm still working on trying to make this app send me text messages or telegram notifications when
+**Today's Progress**: I'm still working on trying to make this app send me text messages or Telegram notifications when
 the crypto prices either increase or decrease. 
 
 **Thoughts:** I am wondering if this program should eventually turn into a mobile app or web app for personal use only.
 Some questions that I still need answer for: how can I have an app running all day? I guess I have to host it somewhere.
 If so, where? How much would it cost? I know I'm some steps ahead, but it would be good to start looking into this early
 rather than late.
+
+**Link to work:** [Crypto.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/Crypto.py)
+
+### Day 42: February 11, 2021
+**Today's Progress**: Making progress with the notifications sent to my phone. That's what I have been working on. 
+
+**Thoughts:** I am still wondering whether I should follow [this tutorial](https://realpython.com/python-bitcoin-ifttt/) 
+for the Telegram messages.
 
 **Link to work:** [Crypto.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/Crypto.py)
