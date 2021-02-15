@@ -387,7 +387,7 @@ for the Telegram messages.
 **Link to work:** [Crypto.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/Crypto.py)
 
 ### Day 43: February 12, 2021
-**Today's Progress**: Making progress with the notifications sent to my phone. That's what I have been working on. 
+**Today's Progress**: Making progress with the notifications sent to my phone. 
 
 **Thoughts:** I am still wondering whether I should follow [this tutorial](https://realpython.com/python-bitcoin-ifttt/) 
 for the Telegram messages.
@@ -395,9 +395,10 @@ for the Telegram messages.
 **Link to work:** [Crypto.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/Crypto.py)
 
 ### Day 44: February 13, 2021
-**Today's Progress**: Making progress with the notifications sent to my phone. That's what I have been working on. 
+**Today's Progress**: I am looking for sources of bots that automatically trade crypto for you based on some threshold
+or price limit. I would like this bot to trade crypto for me on KuCoin.  
 
-**Thoughts:** I am still wondering whether I should follow [this tutorial](https://realpython.com/python-bitcoin-ifttt/) 
-for the Telegram messages.
+**Thoughts:** Is that doable? How do I connect my wallet to this bot and tell it to trade for me? How do I signal the bot
+when to trade (buy/sell)? Will look into that tomorrow.
 
 **Link to work:** [Crypto.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/Crypto.py)
