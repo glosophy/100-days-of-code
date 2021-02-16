@@ -402,3 +402,14 @@ or price limit. I would like this bot to trade crypto for me on KuCoin.
 when to trade (buy/sell)? Will look into that tomorrow.
 
 **Link to work:** [Crypto.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/Crypto.py)
+
+### Day 45: February 14, 2021
+**Today's Progress**: Happy Valentine's Day! I took a break from the crypto bot and kept on solving [Santiago's programming challenge](https://twitter.com/svpino/status/1354048200601198593?s=20).
+I tackled problem #9: Write a function that finds the length of the shortest array that contains both input arrays as
+subarrays.   
+
+**Thoughts:** This problem was a difficult one, but having already worked on #8 gave me a pretty good intuition on
+how to approach this problem. I iterated through the two lists to find the length of the shortest common array present
+in the two arrays passed as inputs.
+
+**Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)

@@ -183,12 +183,12 @@ def common_subarray_improved(list1, list2):
     last = [0 for _ in range(len(list2) + 1)]
     max_length = 0
 
-    for i in range(1, len(list1)+1):
-        current = [0 for _ in range(len(list1)+1)]
+    for i in range(1, len(list1) + 1):
+        current = [0 for _ in range(len(list1) + 1)]
 
-        for j in range(1, len(list2)+1):
-            if list1[i-1] == list2[j-1]:
-                current[j] = 1 + last[j-1]
+        for j in range(1, len(list2) + 1):
+            if list1[i - 1] == list2[j - 1]:
+                current[j] = 1 + last[j - 1]
                 max_length = max(max_length, current[j])
 
         last = current
@@ -198,6 +198,43 @@ def common_subarray_improved(list1, list2):
 common_subarray_improved(main_list, sub_list)
 print('-------------' * 5)
 
-
 # 9. Write a function that finds the length of the shortest array that contains both input arrays as subarrays.
 
+A = [5, 6, 5, 2, 7, 5, 6, 7, 5, 5, 7, 3, 4, 8, 6]
+B = [2, 7, 5, 6, 7, 5]
+
+
+def shortest_common_subarray(list1, list2):
+    result = 1000000
+    n = len(list1)
+    m = len(list2)
+
+    # Traverse main_array element
+    for i in range(0, n - m + 1):
+
+        # Pick only those subarray of main array whose first element match with the first element of second array
+        if list1[i] == list2[0]:
+
+            # initialize starting of both subarrays
+            j = 0
+            index = i
+            for index in range(i, n):
+                if list1[index] == list2[j]:
+                    j = j + 1
+
+                # if we found all elements of the second array
+                if j == m:
+                    break
+
+            # update minimum length sub_array
+            if j == m and result > index - i + 1:
+                if index == n:
+                    result = index - i
+                else:
+                    result = index - i + 1
+
+    # return minimum length subarray
+    print('Length of shortest array:', result)
+
+shortest_common_subarray(A, B)
+print('-------------' * 5)
