@@ -413,3 +413,14 @@ how to approach this problem. I iterated through the two lists to find the lengt
 in the two arrays passed as inputs.
 
 **Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)
+
+### Day 46: February 15, 2021
+**Today's Progress**: I kept on working on [Santiago's short programming problems](https://twitter.com/svpino/status/1354048200601198593?s=20).
+They are so much fun and made me learned a lot. Not quite sure how to tackle #10 yet: Write a function that, given an 
+array, determines if you can partition it in two separate subarrays such that the sum of elements in both subarrays 
+is the same. 
+
+**Thoughts:** I'm afraid I'll have to loop through the whole array, and find the nth element that splits it into
+two arrays whose sum is the same. I got stuck after finding the splitting point.
+
+**Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)
