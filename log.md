@@ -424,3 +424,14 @@ is the same.
 two arrays whose sum is the same. I got stuck after finding the splitting point.
 
 **Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)
+
+### Day 47: February 16, 2021
+**Today's Progress**: I finally figured out how to solve #10! I want to say it was easier than I expected. As you move onto 
+the last programing problems they tend to get harder and harder. I do not know why I thought this was going to be way
+hasrder than what it ended up being. Hopefully, I'll get an answer fron Santiago and see if I did a good job.
+
+**Thoughts:** Sometimes when I get stuck solving a problem I tend to get overwhelmed and think that I will never be able
+to solve it. But usually if I give it at least a day, I can even come up with a better and more efficient solution. I 
+need to start being better at not getting frustrated very rapidly. 
+
+**Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)

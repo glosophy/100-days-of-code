@@ -240,49 +240,26 @@ def shortest_common_subarray(list1, list2):
 shortest_common_subarray(A, B)
 print('-------------' * 5)
 
+
 # 10. Write a function that, given an array, determines if you can partition it in two separate subarrays such that
 # the sum of elements in both subarrays is the same.
 
 sum_array = [2, 3, 6, 5, 4, 1, 2, 3, 4, 5, 10, 3, 4]
 
 
-def findSplitPoint(arr):
-    n = len(arr)
-    leftSum = 0
-
-    # traverse array element
-    for i in range(0, n):
-
-        # add current element to left Sum
-        leftSum += arr[i]
-
-        # find sum of rest array elements (rightSum)
-        rightSum = 0
-        for j in range(i + 1, n):
-            rightSum += arr[j]
-
-            # split index
-        if leftSum == rightSum:
-            return i + 1
-
-            # if it is not possible to split array into two parts
-    return -1
-
-
-# Prints two parts after finding split using findSplitPoint()
-def printTwoParts(arr):
+def sum_split_array(arr):
     n = len(arr)
 
-    splitPo = findSplitPoint(arr)
+    for i in range(0, n - 1):
+        left_arr = arr[:i + 1]
+        right_arr = arr[i + 1:]
 
-    if splitPo == -1 or splitPo == n:
-        print("Not Possible")
-        return
+        sum_right = sum(right_arr)
+        sum_left = sum(left_arr)
 
-    for i in range(0, n):
-        if splitPo == i:
-            print("")
-        print(str(arr[i]) + ' ', end='')
+        if sum_right == sum_left:
+            print('Subarray I:', left_arr, '| Sum:', sum_left)
+            print('Subarray II:', right_arr, '| Sum:', sum_right)
 
 
-printTwoParts(sum_array)
+sum_split_array(sum_array)
