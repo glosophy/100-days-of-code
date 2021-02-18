@@ -435,3 +435,14 @@ to solve it. But usually if I give it at least a day, I can even come up with a 
 need to start being better at not getting frustrated very rapidly. 
 
 **Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)
+
+### Day 48: February 17, 2021
+**Today's Progress**: I think I finished all of [Santiago's short programming problems](https://twitter.com/svpino/status/1354048200601198593?s=20)!
+I just finished #11. Write a function that, given an array, divides it into two subarrays, such as the absolute 
+difference between their sums is minimum.
+
+**Thoughts:** I am sure there's still a way of reducing the lines of code by almost half. But I think I just like writing
+down every single step and have a better understanding of what is going on in the middle of the function. In any case,
+I will give it another try and try to find a way of writing less lines of code. 
+
+**Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)

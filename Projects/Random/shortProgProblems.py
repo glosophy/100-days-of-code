@@ -263,3 +263,39 @@ def sum_split_array(arr):
 
 
 sum_split_array(sum_array)
+print('-------------' * 5)
+
+
+# 11. Write a function that, given an array, divides it into two subarrays, such as the absolute difference
+# between their sums is minimum.
+
+
+sub_array = [2, 3, 6, 5, 4, 1, 2, 8, 5, 20, 3, 4, 5, 14, 3, 4]
+
+
+def sum_split_array(arr):
+    n = len(arr)
+
+    left_arr = [0]
+    right_arr = [0]
+    abs_diff = 30
+
+    for i in range(0, n):
+        left_arr_int = arr[:i]
+        right_arr_int = arr[i:]
+
+        sum_right = sum(right_arr_int)
+        sum_left = sum(left_arr_int)
+
+        abs_diff_int = abs(sum_right - sum_left)
+
+        if abs_diff_int < abs_diff:
+            abs_diff, left_arr, right_arr = abs_diff_int, left_arr_int, right_arr_int
+
+    print('Subarray I:', left_arr, '| Sum:', sum(left_arr))
+    print('Subarray II:', right_arr, '| Sum:', sum(right_arr))
+    print('Minimum absolute difference:', abs_diff)
+
+
+sum_split_array(sub_array)
+print('-------------' * 5)
