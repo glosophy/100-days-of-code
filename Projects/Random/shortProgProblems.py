@@ -240,7 +240,6 @@ def shortest_common_subarray(list1, list2):
 shortest_common_subarray(A, B)
 print('-------------' * 5)
 
-
 # 10. Write a function that, given an array, determines if you can partition it in two separate subarrays such that
 # the sum of elements in both subarrays is the same.
 
@@ -265,7 +264,6 @@ def sum_split_array(arr):
 sum_split_array(sum_array)
 print('-------------' * 5)
 
-
 # 11. Write a function that, given an array, divides it into two subarrays, such as the absolute difference
 # between their sums is minimum.
 
@@ -278,7 +276,7 @@ def sum_split_array(arr):
 
     left_arr = [0]
     right_arr = [0]
-    abs_diff = 30
+    abs_diff = 10 ** 10
 
     for i in range(0, n):
         left_arr_int = arr[:i]
@@ -299,3 +297,23 @@ def sum_split_array(arr):
 
 sum_split_array(sub_array)
 print('-------------' * 5)
+
+
+# --------------------------------------------------------------------------
+
+def short_sum_split_array(arr):
+    n = len(arr)
+    abs_diff = 10 ** 10
+    left_arr = []
+    right_arr = []
+
+    for i in range(0, n):
+        if abs(sum(arr[:i]) - sum(arr[i:])) < abs_diff:
+            abs_diff, left_arr, right_arr = abs(sum(arr[:i]) - sum(arr[i:])), arr[:i], arr[i:]
+
+    print('Subarray I:', left_arr, '| Sum:', sum(left_arr))
+    print('Subarray II:', right_arr, '| Sum:', sum(right_arr))
+    print('Minimum absolute difference:', abs_diff)
+
+
+short_sum_split_array(sub_array)
