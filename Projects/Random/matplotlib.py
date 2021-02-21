@@ -14,7 +14,7 @@ for i in range(100):
     samples = np.random.standard_normal(50)
     mu, sigma = np.mean(samples), np.std(samples)
     plt.plot(x13, pdf(x13, mu, sigma), color='.75', linewidth=.5)
-plt.plot(x13, pdf(x13, 0., 1.), color='y', linewidth=3.)
+plt.plot(x13, pdf(x13, 0., 1.), color='pink', linewidth=3.)
 plt.axis('off')
 plt.savefig("test.svg")
 plt.show()
