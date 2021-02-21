@@ -456,3 +456,13 @@ when building a function. Specially if someone else is going to end up eventuall
 sides, of course, but I'd rather make it more specific than less easy to understand.
 
 **Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)
+
+### Day 50: February 19, 2021
+**Today's Progress**: I managed to write #11 using fewer lines of code.
+
+**Thoughts:** I am still not sure about the benefits of wirting code using fewr lines of code. Unless I'm not adding
+more for loops the code does not get computationally more expensive. I think there's still benefits in including all steps 
+when building a function. Specially if someone else is going to end up eventually using the code. There are benefits on both
+sides, of course, but I'd rather make it more specific than less easy to understand.
+
+**Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)
