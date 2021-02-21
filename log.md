@@ -464,4 +464,4 @@ sides, of course, but I'd rather make it more specific than less easy to underst
 programming problems that were taking much of my `#100DaysOfCode` time. I'll probably start solving some programming questions
 from interview websites.
 
-**Link to work:** [shortProgProblems.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/shortProgProblems.py)
+**Link to work:** [matplotlib.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/matplotlib.py)
