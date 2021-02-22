@@ -465,3 +465,11 @@ programming problems that were taking much of my `#100DaysOfCode` time. I'll pro
 from interview websites.
 
 **Link to work:** [matplotlib.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/matplotlib.py)
+
+### Day 51: February 20, 2021
+**Today's Progress**: I continued drawing shapes with `matplotlib`.
+
+**Thoughts:** I think playing around with `matplotlib` is something I really enjoy. I will be making more shapes or artsy
+charts. This is something I really enjoyed!
+
+**Link to work:** [matplotlib2.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/matplotlib2.py)
