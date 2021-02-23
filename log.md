@@ -481,3 +481,12 @@ charts. This is something I really enjoyed!
 
 **Link to work:** [prototypeGame.js](https://github.com/glosophy/100-days-of-code/blob/main/Projects/ImmigrationGame/prototypeGame.js)
 
+### Day 53: February 22, 2021
+**Today's Progress**: I have created a folder with interview questions I will start solving from now on until I come up
+with a nice project to work on for the rest of this challenge or at least for the next 20 days. 
+
+**Thoughts:** Now that I have finished [Santiago's short programming problems](https://twitter.com/svpino/status/1354048200601198593?s=20),
+ it has become really hard for me to find something to work on. I wonder if this is something that usually happens to 
+ people who start this challenge. 
+
+**Link to work:** [prototypeGame.js](https://github.com/glosophy/100-days-of-code/blob/main/Projects/ImmigrationGame/prototypeGame.js)
