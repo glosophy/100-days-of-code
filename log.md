@@ -489,4 +489,4 @@ with a nice project to work on for the rest of this challenge or at least for th
  it has become really hard for me to find something to work on. I wonder if this is something that usually happens to 
  people who start this challenge. 
 
-**Link to work:** [prototypeGame.js](https://github.com/glosophy/100-days-of-code/blob/main/Projects/ImmigrationGame/prototypeGame.js)
+**Link to work:** [/Interview Qustions](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions)
