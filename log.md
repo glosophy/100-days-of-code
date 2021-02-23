@@ -473,3 +473,11 @@ from interview websites.
 charts. This is something I really enjoyed!
 
 **Link to work:** [matplotlib2.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/matplotlib2.py)
+
+### Day 52: February 21, 2021
+**Today's Progress**: Brushing up on my Javascript skills.
+
+**Thoughts:** I am working on creating an interactive game that takes you through the whole path of getting a green card.
+
+**Link to work:** [prototypeGame.js](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/matplotlib2.py)
+
