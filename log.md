@@ -479,5 +479,5 @@ charts. This is something I really enjoyed!
 
 **Thoughts:** I am working on creating an interactive game that takes you through the whole path of getting a green card.
 
-**Link to work:** [prototypeGame.js](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/matplotlib2.py)
+**Link to work:** [prototypeGame.js](https://github.com/glosophy/100-days-of-code/blob/main/Projects/ImmigrationGame/prototypeGame.js)
 
