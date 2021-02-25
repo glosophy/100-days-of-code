@@ -9,4 +9,27 @@ def middle_string(s1, s2):
 
 
 middle_string('something', 'great')
-# New string: somegreatthing
+print('-----------'*5)
+
+
+# 2. Build a function that, given a tring, reorders its characters so all the uppercase letters come first,
+# and the lowercase letter come last
+
+def reorder_uppercase(word):
+
+    uppercase = []
+    lowercase = []
+
+    for i in word:
+        if i.isalnum():
+            if i.isupper():
+                uppercase.append(i)
+            else:
+                lowercase.append(i)
+
+    final_string = ''.join(uppercase + lowercase)
+
+    print('Reordered string:', final_string)
+
+reorder_uppercase('Hello World')
+
