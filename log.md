@@ -489,4 +489,15 @@ with a nice project to work on for the rest of this challenge or at least for th
  it has become really hard for me to find something to work on. I wonder if this is something that usually happens to 
  people who start this challenge. 
 
+**Link to work:** [/Interview Questions](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions)
+
+### Day 54: February 23, 2021
+**Today's Progress**: Michael Corleone's "Just when I thought I was out, they pull me back in" is exactly what happened
+with [Santiago's new programming problems](https://twitter.com/svpino/status/1364448470413828097?s=20). I'm back solving
+these problems. Will move on to interview questions/problems after I solve these. 
+
+**Thoughts:** The first one was kind of simple. I had to build a function that given two strings "s1" and "s2", creates 
+a new string by appending "s2" in the middle of "s1". Although it was pretty straight forward, it was good working with
+strings.
+
 **Link to work:** [/Interview Qustions](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions)
