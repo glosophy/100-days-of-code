@@ -500,4 +500,13 @@ these problems. Will move on to interview questions/problems after I solve these
 a new string by appending "s2" in the middle of "s1". Although it was pretty straight forward, it was good working with
 strings.
 
-**Link to work:** [/Interview Qustions](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions)
+**Link to work:** [ProgrammingChallenge.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/ProgrammingChallenge.py)
+
+### Day 55: February 24, 2021
+**Today's Progress**: I kept solving Santiago's programming challenge. This time I built a function that, given a tring, 
+reorders its characters so all the uppercase letters come first, and the lowercase letter come last.
+
+**Thoughts:** Again, this one was prety easy to tackle. I learned about `isalnum()` and, again, got to work with strings,
+which I don't do often.
+
+**Link to work:** [ProgrammingChallenge.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/ProgrammingChallenge.py)
