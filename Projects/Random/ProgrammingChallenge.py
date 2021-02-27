@@ -33,3 +33,7 @@ def reorder_uppercase(word):
 
 reorder_uppercase('Hello World')
 
+
+# 3. Build a function that, given a list of values, returns a dictionary with the number of ocurrencies of each
+# value in the list
+
