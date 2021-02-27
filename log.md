@@ -510,3 +510,13 @@ reorders its characters so all the uppercase letters come first, and the lowerca
 which I don't do often.
 
 **Link to work:** [ProgrammingChallenge.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/ProgrammingChallenge.py)
+
+## Day 56: February 25, 2021
+**Today's Progress**: Today was a quick session, but I got to work with dictionaries, which I don't do often. I solved
+problem #3: Build a function that, given a list of values, returns a dictionary with the number of occurrences of each
+value in the list.
+
+**Thoughts:** This problem reminded me I should probably work with dictionaries more often. I should maybe do a full
+coding session related to dictionaries...?
+
+**Link to work:** [ProgrammingChallenge.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/ProgrammingChallenge.py)

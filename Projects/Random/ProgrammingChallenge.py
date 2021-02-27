@@ -1,7 +1,6 @@
 # 1. Build a function that given two strings "s1" and "s2", creates a new string by appending "s2" in the middle of "s1"
 
 def middle_string(s1, s2):
-
     middle_s1 = len(s1) // 2
     new_string = s1[:middle_s1] + s2 + s1[middle_s1:]
 
@@ -9,14 +8,13 @@ def middle_string(s1, s2):
 
 
 middle_string('something', 'great')
-print('-----------'*5)
+print('-----------' * 5)
 
 
 # 2. Build a function that, given a tring, reorders its characters so all the uppercase letters come first,
 # and the lowercase letter come last
 
 def reorder_uppercase(word):
-
     uppercase = []
     lowercase = []
 
@@ -31,9 +29,26 @@ def reorder_uppercase(word):
 
     print('Reordered string:', final_string)
 
+
 reorder_uppercase('Hello World')
+print('-----------' * 5)
 
-
-# 3. Build a function that, given a list of values, returns a dictionary with the number of ocurrencies of each
+# 3. Build a function that, given a list of values, returns a dictionary with the number of occurrences of each
 # value in the list
 
+values = ['a', 'a', 'b', 'c', 'b']
+
+
+def occurrences(lst):
+    d = {}
+
+    for value in lst:
+        if value in d:
+            d[value] += 1
+        else:
+            d[value] = 1
+
+    return d
+
+
+occurrences(values)
