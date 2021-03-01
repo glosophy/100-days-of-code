@@ -52,3 +52,17 @@ def occurrences(lst):
 
 
 occurrences(values)
+
+# 4. Build a function that reverses the given string
+
+word = 'Hello World'
+
+
+def reverse_string(string):
+    rev = string[::-1]
+
+    return rev
+
+
+print(reverse_string(word))
+print('-----------' * 5)
