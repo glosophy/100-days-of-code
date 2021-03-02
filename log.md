@@ -489,7 +489,7 @@ with a nice project to work on for the rest of this challenge or at least for th
  it has become really hard for me to find something to work on. I wonder if this is something that usually happens to 
  people who start this challenge. 
 
-**Link to work:** [/Interview Questions](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions)
+**Link to work:** [Interview Questions](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions)
 
 ### Day 54: February 23, 2021
 **Today's Progress**: Michael Corleone's "Just when I thought I was out, they pull me back in" is exactly what happened
@@ -550,4 +550,4 @@ to calculate `math.ceil` and `math.floor`. What I did instead, was to find a way
 these questions and coding problems very useful to practice for coding interviews in general and to brush up on concepts 
 I had somewhat forgotten or that I need to have more present.
 
-**Link to work:** [ProgrammingChallenge.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/ProgrammingChallenge.py)
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
