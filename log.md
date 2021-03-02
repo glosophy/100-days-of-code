@@ -541,10 +541,11 @@ basics and, for a moment, remove yourself from the more complex algorithms to ju
 **Link to work:** [ProgrammingChallenge.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/ProgrammingChallenge.py)
 
 ## Day 59: February 28, 2021
-**Today's Progress**: I finished [Santiago's programming problems](https://twitter.com/svpino/status/1364448470413828097?s=20)!
-I can't emphasize enough how much I enjoyed this challenge. 
+**Today's Progress**: I started working on the Machine Learning Theory module in [Confetti AI](https://www.confetti.ai/curriculum). 
+I built functions that calculate means, medians, and specific percentiles of a given list of numbers. I also answered
+questions on bias, probability, distributions, ROC curve, and AUC.
 
-**Thoughts:** I think this type of problems are helpful to keep your feet on the ground. They let you go back to the
-basics and, for a moment, remove yourself from the more complex algorithms to just work on the ABC of programming.
+**Thoughts:** I'm finding all these questions and coding problems very useful to practice for coding interviews in general
+and to brush up on concepts I had somewhat forgotten or that I need to have more present.
 
 **Link to work:** [ProgrammingChallenge.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/ProgrammingChallenge.py)

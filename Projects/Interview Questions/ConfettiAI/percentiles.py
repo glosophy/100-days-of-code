@@ -28,16 +28,16 @@ ALL_LATENCIES = [
     2.500865500659632,
     0.8442174772740363,
     1.998084024508116
- ]
+]
 
-def compute_percentile(latencies, percentile):
 
+def calculate_percentile(latencies, percentile):
     latencies.sort()
 
-    index = (len(latencies)-1) * percentile / 100
+    index = (len(latencies) - 1) * percentile / 100
 
-    min_value = min(latencies)
-    max_value = max(latencies)
+    min_value = int(index // 1)  # floor
+    max_value = int(-(-index // 1))  # ceil
 
     if max_value == min_value:
         return latencies[int(index)]
@@ -46,13 +46,15 @@ def compute_percentile(latencies, percentile):
     d1 = latencies[int(max_value)] * (index - min_value)
     return d0 + d1
 
+
 def compute_p50(latencies):
     """
     TODO: Fill in this function! Don't use any external libraries :)
     :param latencies: A list of latencies.
     :return: Computed p50 provided as float.
     """
-    return compute_percentile(latencies, 50)
+    return calculate_percentile(latencies, 50)
+
 
 def compute_p90(latencies):
     """
@@ -60,7 +62,7 @@ def compute_p90(latencies):
     :param latencies: A list of latencies.
     :return: Computed p90 provided as float.
     """
-    return compute_percentile(latencies, 90)
+    return calculate_percentile(latencies, 90)
 
 
 compute_p50(ALL_LATENCIES)
