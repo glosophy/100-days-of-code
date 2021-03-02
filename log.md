@@ -545,7 +545,9 @@ basics and, for a moment, remove yourself from the more complex algorithms to ju
 I built functions that calculate means, medians, and specific percentiles of a given list of numbers. I also answered
 questions on bias, probability, distributions, ROC curve, and AUC.
 
-**Thoughts:** I'm finding all these questions and coding problems very useful to practice for coding interviews in general
-and to brush up on concepts I had somewhat forgotten or that I need to have more present.
+**Thoughts:** For the question about percentiles, the proposed solution by Confetti AI used the `math` module of Python
+to calculate `math.ceil` and `math.floor`. What I did instead, was to find a way to avoid using `math`. I'm finding all 
+these questions and coding problems very useful to practice for coding interviews in general and to brush up on concepts 
+I had somewhat forgotten or that I need to have more present.
 
 **Link to work:** [ProgrammingChallenge.py](https://github.com/glosophy/100-days-of-code/blob/main/Projects/Random/ProgrammingChallenge.py)
