@@ -551,3 +551,12 @@ these questions and coding problems very useful to practice for coding interview
 I had somewhat forgotten or that I need to have more present.
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 60: March 1, 2021
+**Today's Progress:** I continued answering questions from the Machine Learning Theory module in [Confetti AI](https://www.confetti.ai/curriculum). 
+I built two functions to add matrices and another one that claculates the Euclidean distance. 
+
+**Thoughts:** It was good to review some concepts related to normal distribution, probability, and linear algebra. The 
+questions definitely get harder and harder as you make progress. 
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
