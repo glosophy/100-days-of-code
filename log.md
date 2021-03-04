@@ -560,3 +560,13 @@ I built two functions to add matrices and another one that claculates the Euclid
 questions definitely get harder and harder as you make progress. 
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 61: March 2, 2021
+**Today's Progress:** I have finished all the tasks from the Machine Learning Theory module in [Confetti AI](https://www.confetti.ai/curriculum). 
+I built a function to calculate the Manhattan distance between a set of points. I also started a new module: Core Machine Learning.
+This one covers algorithms and techniques that fall into standard (non-deep) machine learning.
+
+**Thoughts:** I learned a lot with this first module on Machine Learning Theory. I think what I enjoyed the most were
+the programming problems and finding different solutions to them. Overall, I liked it. 
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
