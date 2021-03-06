@@ -579,3 +579,12 @@ I am learning a lot! Specially with the multiple-choice questions.
 and fortunately could come up with a solution to that problem.  
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 62: March 3, 2021
+**Today's Progress:** Wow! I started [Confetti AI's Core Machine Learning module](https://www.confetti.ai/curriculum). 
+I am learning a lot! Specially with the multiple-choice questions.
+
+**Thoughts:** I created a function to fit some (X, Y) tuples into a linear function. I remembered my time series class,
+and fortunately could come up with a solution to that problem.  
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
