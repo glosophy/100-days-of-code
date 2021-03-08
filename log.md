@@ -581,19 +581,26 @@ and fortunately could come up with a solution to that problem.
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
 
 # Day 63: March 4, 2021
-**Today's Progress:** Wow! I started [Confetti AI's Core Machine Learning module](https://www.confetti.ai/curriculum). 
-I am learning a lot! Specially with the multiple-choice questions.
+**Today's Progress:** I continued answering theory questions and solving the programming problems in
+ [Confetti AI's Core Machine Learning module](https://www.confetti.ai/curriculum). I can't emphasize enough how much I'm learning.
 
-**Thoughts:** I created a function to fit some (X, Y) tuples into a linear function. I remembered my time series class,
-and fortunately could come up with a solution to that problem.  
+**Thoughts:** The programming problems are getting harder and harder. Sometimes I had to look at the solution to see
+at least how to approach the problem.
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
 
 # Day 64: March 5, 2021
-**Today's Progress:** Wow! I started [Confetti AI's Core Machine Learning module](https://www.confetti.ai/curriculum). 
-I am learning a lot! Specially with the multiple-choice questions.
+**Today's Progress:** I continued answering theory questions and solving the programming problems in
+ [Confetti AI's Core Machine Learning module](https://www.confetti.ai/curriculum). It was only questions I answered, but
+ got to work on some very difficult programming problems.  
 
-**Thoughts:** I created a function to fit some (X, Y) tuples into a linear function. I remembered my time series class,
-and fortunately could come up with a solution to that problem.  
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 65: March 6, 2021
+**Today's Progress:** I'm still solving problems from [Confetti AI's Core Machine Learning module](https://www.confetti.ai/curriculum). 
+Today I really struggled with the linear interpolation programming problem. 
+
+**Thoughts:** This particular problem asked to fit a line using gradient descent. Although I have done that before with
+2x1 inputs for a neural network, I had never seen it with linear regression. 
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
