@@ -604,3 +604,14 @@ Today I really struggled with the linear interpolation programming problem.
 2x1 inputs for a neural network, I had never seen it with linear regression. 
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 66: March 7, 2021
+**Today's Progress:** I finally finished [Confetti AI's Core Machine Learning module](https://www.confetti.ai/curriculum)!
+Now I'm moving onto their Metrics module. 
+
+**Thoughts:** The remaining coding exercises in the section were really hard to implement. I had to do a lot of Google
+searches and sometimes look at their solution, which is not the best, IMO, but at least it helped me realize how to
+approach these types of problems. I also realized I need to work on `class` in Python. I kinda forgot how to create and
+manipulate them.
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
