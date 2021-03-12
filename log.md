@@ -633,3 +633,12 @@ I got to answer questions on label imabalances, dealing with mising data, least 
 the list of true and predicted labels and calculated the true postives, false negatives, and false positives.
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 67: March 8, 2021
+**Today's Progress:** Woohoo! I finished [Confetti AI's Metrics module](https://www.confetti.ai/curriculum)!
+I got to answer questions on label imabalances, dealing with mising data, least squares, correlations, etc. 
+
+**Thoughts:** The programming exercise was focused on calculating the F1 score given two arrays. I iterated through
+the list of true and predicted labels and calculated the true postives, false negatives, and false positives.
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
