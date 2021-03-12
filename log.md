@@ -625,20 +625,18 @@ the list of true and predicted labels and calculated the true postives, false ne
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
 
-# Day 67: March 8, 2021
-**Today's Progress:** Woohoo! I finished [Confetti AI's Metrics module](https://www.confetti.ai/curriculum)!
-I got to answer questions on label imabalances, dealing with mising data, least squares, correlations, etc. 
-
-**Thoughts:** The programming exercise was focused on calculating the F1 score given two arrays. I iterated through
-the list of true and predicted labels and calculated the true postives, false negatives, and false positives.
+# Day 68: March 9, 2021
+**Today's Progress:** I started [Confetti AI's Deep Learning module](https://www.confetti.ai/curriculum)!
+ 
+**Thoughts:** Strangely so, I am doing better on this module than I did on the previous ones.
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
 
-# Day 67: March 8, 2021
-**Today's Progress:** Woohoo! I finished [Confetti AI's Metrics module](https://www.confetti.ai/curriculum)!
-I got to answer questions on label imabalances, dealing with mising data, least squares, correlations, etc. 
+# Day 69: March 10, 2021
+**Today's Progress:** I just finished [Confetti AI's Deep Learning module](https://www.confetti.ai/curriculum)!
+I answered all the questions about SGD, vanishing gradients, hidden layers, etc. 
 
-**Thoughts:** The programming exercise was focused on calculating the F1 score given two arrays. I iterated through
-the list of true and predicted labels and calculated the true postives, false negatives, and false positives.
+**Thoughts:** I definitely loved this module. It helped me brush up on some deep learning concepts I have not used
+in a while. 
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
