@@ -640,3 +640,12 @@ I answered all the questions about SGD, vanishing gradients, hidden layers, etc.
 in a while. 
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 70: March 11, 2021
+**Today's Progress:** I jumped straight to the Numpy module in [Confetti AI's Deep Learning module](https://www.confetti.ai/curriculum)!
+I answered all the questions about SGD, vanishing gradients, hidden layers, etc. 
+
+**Thoughts:** I definitely loved this module. It helped me brush up on some deep learning concepts I have not used
+in a while. 
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
