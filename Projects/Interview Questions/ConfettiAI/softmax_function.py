@@ -1,6 +1,5 @@
 """
 Given a vector of data, compute the softmax scores of the vector.
-
 For a review of softmax, check out: https://en.wikipedia.org/wiki/Softmax_function
 """
 
