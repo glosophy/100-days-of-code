@@ -648,3 +648,11 @@ I built functions to calculate cosine similarity, euclidean distance, the softma
 **Thoughts:** This was so much fun! I always love going back to some linear algebra concepts and refresh them.
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 71: March 11, 2021
+**Today's Progress:** I keep enjoying [Confetti AI's Engineering and Tools section](https://www.confetti.ai/curriculum)!
+I normalized an array (subtract the mean and divide by the standard deviation), and calculated the average of a matrix.
+
+**Thoughts:** This keep getting more fun. 
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
