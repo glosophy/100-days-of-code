@@ -1,5 +1,6 @@
 """
-Given two matrices, create a function that checks whether they are equal (i.e. all their corresponding entries are the same).
+Given two matrices, create a function that checks whether they are equal
+(i.e. all their corresponding entries are the same).
 """
 
 import numpy as np

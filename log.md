@@ -656,3 +656,13 @@ I normalized an array (subtract the mean and divide by the standard deviation), 
 **Thoughts:** This keep getting more fun. 
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 72: March 13, 2021
+**Today's Progress:** I am still coding along [Confetti AI's Engineering and Tools section](https://www.confetti.ai/curriculum)!
+I created functions that compare two matrices and tells you whether they are the same or not, another that takes two values
+as inputs and returns an array consisting of all integer values between start and end.
+
+**Thoughts:** Although some of these funtions I have to build are easy enough to do think through, I am still learning
+and keep remembering some basic concepts. 
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
