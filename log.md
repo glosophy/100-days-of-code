@@ -676,3 +676,15 @@ multiplies matrices.
 still took the time to build them from scratch and go through the whole thinking process.  
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 74: March 15, 2021
+**Today's Progress:** I just finished the numpy module from [Confetti AI's Engineering and Tools section](https://www.confetti.ai/curriculum)!
+The functions I created compare two vectors to find common entries between them, another one normalizes a matrix by
+subtracting the columns mean from the matrix entry, and another one that scales a vector given a certain number.
+
+**Thoughts:** Apart from the implementation of each function, I learned the why behind each of these. For example, subtracting
+the columns mean from each of the matrix entries has the effect of zero-centering the data and is often done in 
+algorithms such as principal components analysis or when running computer vision models. Another thing I learned is that 
+checking for `NaN` values is a common thing when building deep learning models, as instable training procedures can generate NaNs in your weights  
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
