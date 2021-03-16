@@ -669,10 +669,10 @@ and keep remembering some basic concepts.
 
 # Day 73: March 14, 2021
 **Today's Progress:** I am still coding along [Confetti AI's Engineering and Tools section](https://www.confetti.ai/curriculum)!
-I created functions that compare two matrices and tells you whether they are the same or not, another that takes two values
-as inputs and returns an array consisting of all integer values between start and end.
+I created functions that calculates given percentiles for given arrays, Manhattan distance, and another one that 
+multiplies matrices.
 
-**Thoughts:** Although some of these funtions I have to build are easy enough to do think through, I am still learning
-and keep remembering some basic concepts. 
+**Thoughts:** Many of the functions I built today I had already done in previous exercises, with minor changes. But I 
+still took the time to build them from scratch and go through the whole thinking process.  
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
