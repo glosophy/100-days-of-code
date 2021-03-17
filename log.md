@@ -689,7 +689,7 @@ checking for `NaN` values is a common thing when building deep learning models, 
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
 
-# Day 74: March 15, 2021
+# Day 75: March 16, 2021
 **Today's Progress:** I started the Data Manipulation, `pandas`, and Spark module from [Confetti AI's Engineering and Tools section](https://www.confetti.ai/curriculum)!
 I am going over basic functions that compute the median and standard deviation of certain columns, or that retrieve the 
 top 3 entries of the dataframe.  
