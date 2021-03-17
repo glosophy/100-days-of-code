@@ -684,7 +684,17 @@ subtracting the columns mean from the matrix entry, and another one that scales 
 
 **Thoughts:** Apart from the implementation of each function, I learned the why behind each of these. For example, subtracting
 the columns mean from each of the matrix entries has the effect of zero-centering the data and is often done in 
-algorithms such as principal components analysis or when running computer vision models. Another thing I learned is that 
-checking for `NaN` values is a common thing when building deep learning models, as instable training procedures can generate NaNs in your weights  
+algorithms such as PCA or when running computer vision models. Another thing I learned is that 
+checking for `NaN` values is a common thing when building deep learning models, as instable training procedures can generate NaNs in the weights.  
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 74: March 15, 2021
+**Today's Progress:** I started the Data Manipulation, `pandas`, and Spark module from [Confetti AI's Engineering and Tools section](https://www.confetti.ai/curriculum)!
+I am going over basic functions that compute the median and standard deviation of certain columns, or that retrieve the 
+top 3 entries of the dataframe.  
+
+**Thoughts:** I am excited about the next set of coding questions that cover `BeautifulSoup`! It never hurts to go over
+the basic concepts of slicing dataframes and retrieve certain values from a column given a condition.
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
