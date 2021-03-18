@@ -698,3 +698,14 @@ top 3 entries of the dataframe.
 the basic concepts of slicing dataframes and retrieve certain values from a column given a condition.
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 76: March 17, 2021
+**Today's Progress:** I am coding along the Data Manipulation, `pandas`, and Spark module from [Confetti AI's Engineering and Tools section](https://www.confetti.ai/curriculum)!
+I used `BeautifulSoup` to scrape some table values from a Wikipedia page.
+
+**Thoughts:** This coding problem took me longer than I thought it would. Given the structure of the code, I had to stick
+to how the code was presented and build on top of that. I would have done things different, but I am glad I was able
+to figure it out. I wrote [an article in Spanish](https://gsutter.medium.com/c%C3%B3mo-leer-tablas-html-con-pandas-ef1c59ffa81a) 
+about pulling data from tables on Wikipedia. I find this way of doing this easier and there is no need to use `BeautifulSoup`.
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
