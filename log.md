@@ -732,10 +732,8 @@ me think about or approach the problem.
 
 # Day 79: March 20, 2021
 **Today's Progress:** I am still coding along the Data Manipulation, `pandas`, and Spark module from [Confetti AI's Engineering and Tools section](https://www.confetti.ai/curriculum)!
-I am now using `pandas` to manipulate different dataframes.
+I had to build a function that calculates the number of missing days in a given dataset.
 
-**Thoughts:** Although I am really enjoying the coding problems, I still find it somewhat difficult to adapt to how the
-function is presented. Again, I would probably start tackling the problem in a different way. But I like how it makes
-me think about or approach the problem.
+**Thoughts:** I rarely work with dates in dataframes, so this function was interesting to build.
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
