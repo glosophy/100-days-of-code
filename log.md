@@ -739,9 +739,11 @@ I had to build a function that calculates the number of missing days in a given 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
 
 # Day 80: March 21, 2021
-**Today's Progress:** I am still coding along the Data Manipulation, `pandas`, and Spark module from [Confetti AI's Engineering and Tools section](https://www.confetti.ai/curriculum)!
-I had to build a function that calculates the number of missing days in a given dataset.
+**Today's Progress:** I am almost done with the programming exercises from the Data Manipulation, `pandas`, and Spark module from [Confetti AI's Engineering and Tools section](https://www.confetti.ai/curriculum)!
+I built functions where I had to handle strings in a `pandas` dataframe. It was really interesting and fun working with 
+and iterating through strings in a dataframe.
 
-**Thoughts:** I rarely work with dates in dataframes, so this function was interesting to build.
+**Thoughts:** These exercises reminded me of one of the [first projects](https://medium.com/analytics-vidhya/https-medium-com-gss-yaim-yet-another-imessage-mining-1bb0d812b002) I worked on where I analyzed the text messages 
+between a friend of mine and I.
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
