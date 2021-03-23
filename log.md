@@ -737,3 +737,11 @@ I had to build a function that calculates the number of missing days in a given 
 **Thoughts:** I rarely work with dates in dataframes, so this function was interesting to build.
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 80: March 21, 2021
+**Today's Progress:** I am still coding along the Data Manipulation, `pandas`, and Spark module from [Confetti AI's Engineering and Tools section](https://www.confetti.ai/curriculum)!
+I had to build a function that calculates the number of missing days in a given dataset.
+
+**Thoughts:** I rarely work with dates in dataframes, so this function was interesting to build.
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
