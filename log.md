@@ -747,3 +747,12 @@ and iterating through strings in a dataframe.
 between a friend of mine and I.
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 81: March 22, 2021
+**Today's Progress:** I am almost done with the programming exercises from the Data Manipulation, `pandas`, and Spark module from [Confetti AI's Engineering and Tools section](https://www.confetti.ai/curriculum)!
+I built functions where I had to handle strings in a `pandas` dataframe. I worked with the baby names dataset, and the 
+spam emails.
+
+**Thoughts:** I liked these exercises a lot!
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)

@@ -4,8 +4,7 @@ had that name in each year from 2011-2013. Count how many unique names there wer
 in the dataset.
 
 The data is derived from a collection of US baby names released
-with a CC0 public domain license, available in its original form here:
-    https://www.kaggle.com/kaggle/us-baby-names
+with a CC0 public domain license, available in its original form here: https://www.kaggle.com/kaggle/us-baby-names
 """
 
 import pandas as pd
