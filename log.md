@@ -756,3 +756,11 @@ spam emails.
 **Thoughts:** I liked these exercises a lot!
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 82: March 23, 2021
+**Today's Progress:** I kept working on the same module from Confetti AI. I built five functions where I, again, had to 
+manipulate strings within a datframe. 
+
+**Thoughts:** These exercises were somewhat easy to code, but still a tad challenging.
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
