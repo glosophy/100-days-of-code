@@ -764,3 +764,10 @@ manipulate strings within a datframe.
 **Thoughts:** These exercises were somewhat easy to code, but still a tad challenging.
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 83: March 24, 2021
+**Today's Progress:** I just finished working on the Data Manipulation, `pandas`, and Spark module from [Confetti AI's Engineering and Tools section](https://www.confetti.ai/curriculum)!
+
+**Thoughts:** I'm glad I finished this module! It helped me brush up on my `pandas` skill.
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
