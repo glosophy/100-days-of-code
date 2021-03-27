@@ -771,3 +771,15 @@ manipulate strings within a datframe.
 **Thoughts:** I'm glad I finished this module! It helped me brush up on my `pandas` skill.
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 84: March 25, 2021
+**Today's Progress:** I started the [Household Income Prediction project](https://www.confetti.ai/questions/3-1). I 
+basically have to build a system for predicting median household income using data aggregated from a number of 
+questionaires filled out by volunteers. There are 8093 training samples provided. The data is provided with each sample 
+on a comma-delimited row, where each column corresponds to a different feature.
+
+**Thoughts:** I'm really excited about working on this project! I will be able to do some machine learning using
+the best of the models I went through during the first couple of weeks when I started my `100DaysOfCode` journey. I have 
+already parsed the data and now I will look into the decision tree family.
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
