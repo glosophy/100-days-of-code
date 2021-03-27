@@ -783,3 +783,14 @@ the best of the models I went through during the first couple of weeks when I st
 already parsed the data and now I will look into the decision tree family.
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 85: March 27, 2021
+**Today's Progress:** I kept working on the [Household Income Prediction project](https://www.confetti.ai/questions/3-1). 
+I focused mainly on EDA to get a deeper understanding of the data I'm working with. The dataset is somewhat
+imbalanced, given that the most represented class has 20% of all labels and the least represented one only gets to 8%.
+
+**Thoughts:** The EDA is the tool that will eventually tell us what type of model/s will be more suitable for our data.
+I'm inclining towards XGBoost, given my experience with that model during the machine learning phase of my `100DaysOfCode`
+journey. I'll start looking into models and ways of treating the data (one-hot-enconding, dummies, minmax, etc.) tomorrow.
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
