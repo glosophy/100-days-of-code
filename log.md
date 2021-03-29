@@ -794,3 +794,13 @@ I'm inclining towards XGBoost, given my experience with that model during the ma
 journey. I'll start looking into models and ways of treating the data (one-hot-enconding, dummies, minmax, etc.) tomorrow.
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 86: March 28, 2021
+**Today's Progress:** I kept working on the [Household Income Prediction project](https://www.confetti.ai/questions/3-1). 
+I did my first attempt with a XGBoost model, but the accuracy was around 32%. 
+
+**Thoughts:** The XGBoost accuracy was around 32%, and I'm still not sure how to treat the categorical encoding. But I
+know that for tree-related algorithms having the categorical data in numerical encoding is enough. Will try tomorrow 
+with a NN for multiclass classification.
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
