@@ -817,20 +817,18 @@ ok. Now I'll definitely spen more time working on this.
 
 # Day 89: March 31, 2021
 **Today's Progress:** I kept working on the [Household Income Prediction project](https://www.confetti.ai/questions/3-1). 
-I went back to work on data and feature engineering to make sure there were no `NaN` values or anything weird.
+Still worked on the data clening for the model. 
 
-**Thoughts:** I can't emphasize enough how important it is to go back to the EDA process and make sure your data looks
-good before modeling. I made the mistake of jumping stright into a very first model before making sure the data looked
-ok. Now I'll definitely spen more time working on this.
+**Thoughts:** I dropped almost 1000 rows that contained `NaN` values, after trying filling 
+the `NaN`s with the mode --which actually didn't help much to the accuracy of the first model I ran.
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
 
 # Day 90: April 01, 2021
 **Today's Progress:** I kept working on the [Household Income Prediction project](https://www.confetti.ai/questions/3-1). 
-I created a baseline model
+I built a baseline model to handle this multi label classification problem.
 
-**Thoughts:** I can't emphasize enough how important it is to go back to the EDA process and make sure your data looks
-good before modeling. I made the mistake of jumping stright into a very first model before making sure the data looked
-ok. Now I'll definitely spen more time working on this.
+**Thoughts:** I still don't want to give up on the XGBoost model for this problem. But I think it would be worth looking
+into a simple and small neural network to tackle this problem.
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
