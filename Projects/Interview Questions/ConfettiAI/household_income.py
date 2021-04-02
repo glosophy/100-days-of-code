@@ -1,6 +1,7 @@
 import os
 import tarfile
 import matplotlib.pyplot as plt
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 from keras.utils import np_utils
 from sklearn.model_selection import KFold, cross_val_score
@@ -24,6 +25,41 @@ train = pd.read_csv(cwd + '/marketing1/train_data.txt', delimiter=',')
 test = pd.read_csv(cwd + '/marketing1/train_data.txt', delimiter=',')
 print(train.columns)
 print('------------' * 5)
+
+# print the dataset rows and columns
+print("TRAIN - Dataset No. of Rows: ", train.shape[0])
+print("TRAIN - Dataset No. of Columns: ", train.shape[1])
+print('--------'*10)
+print("TEST - Dataset No. of Rows: ", test.shape[0])
+print("TEST - Dataset No. of Columns: ", test.shape[1])
+print('--------'*10)
+
+# look at NaNs
+print("Sum of NULL values in each column (train):")
+print(train.isnull().sum())
+print('--------'*10)
+print("Sum of NULL values in each column (test):")
+print(test.isnull().sum())
+print('--------'*10)
+
+# drop 'time-in-bay-area'
+train.drop('time-in-bay-area', axis=1, inplace=True)
+test.drop('time-in-bay-area', axis=1, inplace=True)
+
+# drop nan rows in dependent variable
+fill_nan = ['marital-status', 'education', 'occupation', 'persons-in-household', 'householder-status', 'type-of-home']
+
+for i in fill_nan:
+    train = train[train[i].notna()]
+    test = test[test[i].notna()]
+
+# print the dataset rows and columns
+print("TRAIN - Dataset No. of Rows: ", train.shape[0])
+print("TRAIN - Dataset No. of Columns: ", train.shape[1])
+print('--------'*10)
+print("TEST - Dataset No. of Rows: ", test.shape[0])
+print("TEST - Dataset No. of Columns: ", test.shape[1])
+print('--------'*10)
 
 # do some EDA on train set
 train['income'].value_counts().plot(kind='bar')
@@ -62,31 +98,3 @@ y_pred = xg_reg.predict(x_test)
 
 # print accuracy
 print("Accuracy is ", round((accuracy_score(y_test, y_pred) * 100), 2))
-
-# run NN
-# encode class values as integers
-encoder = LabelEncoder()
-encoder.fit(y_train)
-encoded_Y = encoder.transform(y_train)
-# convert integers to dummy variables (i.e. one hot encoded)
-dummy_y = np_utils.to_categorical(encoded_Y)
-
-
-# define baseline model
-def baseline_model():
-    # create model
-    model = Sequential()
-    model.add(Dense(8, input_dim=4, activation='relu'))
-    model.add(Dense(3, activation='softmax'))
-    # Compile model
-    model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
-    return model
-
-
-estimator = KerasClassifier(build_fn=baseline_model, epochs=200, batch_size=5, verbose=0)
-
-kfold = KFold(n_splits=10, shuffle=True)
-
-results = cross_val_score(estimator, x_train, dummy_y, cv=kfold)
-print("Baseline: %.2f%% (%.2f%%)" % (results.mean()*100, results.std()*100))
-

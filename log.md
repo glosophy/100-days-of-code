@@ -804,3 +804,33 @@ know that for tree-related algorithms having the categorical data in numerical e
 with a NN for multiclass classification.
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 88: March 30, 2021
+**Today's Progress:** I kept working on the [Household Income Prediction project](https://www.confetti.ai/questions/3-1). 
+I went back to work on data and feature engineering to make sure there were no `NaN` values or anything weird.
+
+**Thoughts:** I can't emphasize enough how important it is to go back to the EDA process and make sure your data looks
+good before modeling. I made the mistake of jumping stright into a very first model before making sure the data looked
+ok. Now I'll definitely spen more time working on this.
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 89: March 31, 2021
+**Today's Progress:** I kept working on the [Household Income Prediction project](https://www.confetti.ai/questions/3-1). 
+I went back to work on data and feature engineering to make sure there were no `NaN` values or anything weird.
+
+**Thoughts:** I can't emphasize enough how important it is to go back to the EDA process and make sure your data looks
+good before modeling. I made the mistake of jumping stright into a very first model before making sure the data looked
+ok. Now I'll definitely spen more time working on this.
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 90: April 01, 2021
+**Today's Progress:** I kept working on the [Household Income Prediction project](https://www.confetti.ai/questions/3-1). 
+I created a baseline model
+
+**Thoughts:** I can't emphasize enough how important it is to go back to the EDA process and make sure your data looks
+good before modeling. I made the mistake of jumping stright into a very first model before making sure the data looked
+ok. Now I'll definitely spen more time working on this.
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
