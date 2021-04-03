@@ -86,8 +86,8 @@ plt.title('Type of Ocuppation by Income')
 plt.show()
 
 # divide into train/test
-y_train, x_train, y_test, x_test = train['income'], train.loc[:, train.columns != 'income'], test['income'], \
-                                   test.loc[:, test.columns != 'income']
+y_train, x_train, y_test, x_test = train['income'].values, train.loc[:, train.columns != 'income'].values, \
+                                   test['income'].values, test.loc[:, test.columns != 'income'].values
 
 # define XGBoost model
 xg_reg = xgb.XGBClassifier()
