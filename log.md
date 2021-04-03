@@ -832,3 +832,11 @@ I built a baseline model to handle this multi label classification problem.
 into a simple and small neural network to tackle this problem.
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 91: April 02, 2021
+**Today's Progress:** I kept working on the [Household Income Prediction project](https://www.confetti.ai/questions/3-1). 
+I kept improving the model to get a better accuracy.
+
+**Thoughts:** I don't think the XGBoost model will work with .
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
