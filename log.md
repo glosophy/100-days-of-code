@@ -837,6 +837,6 @@ into a simple and small neural network to tackle this problem.
 **Today's Progress:** I kept working on the [Household Income Prediction project](https://www.confetti.ai/questions/3-1). 
 I kept improving the model to get a better accuracy.
 
-**Thoughts:** I don't think the XGBoost model will work with .
+**Thoughts:** I don't think the XGBoost model will work with these data, so I'll definitely start looking into NN for sure.
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
