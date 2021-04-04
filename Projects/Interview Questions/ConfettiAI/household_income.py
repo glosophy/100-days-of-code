@@ -1,6 +1,10 @@
 import os
 import tarfile
 import matplotlib.pyplot as plt
+from keras.utils import to_categorical
+from keras.optimizers import Adam
+from sklearn.metrics import cohen_kappa_score, f1_score
+import tensorflow as tf
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 from keras.utils import np_utils
@@ -29,18 +33,18 @@ print('------------' * 5)
 # print the dataset rows and columns
 print("TRAIN - Dataset No. of Rows: ", train.shape[0])
 print("TRAIN - Dataset No. of Columns: ", train.shape[1])
-print('--------'*10)
+print('--------' * 10)
 print("TEST - Dataset No. of Rows: ", test.shape[0])
 print("TEST - Dataset No. of Columns: ", test.shape[1])
-print('--------'*10)
+print('--------' * 10)
 
 # look at NaNs
 print("Sum of NULL values in each column (train):")
 print(train.isnull().sum())
-print('--------'*10)
+print('--------' * 10)
 print("Sum of NULL values in each column (test):")
 print(test.isnull().sum())
-print('--------'*10)
+print('--------' * 10)
 
 # drop 'time-in-bay-area'
 train.drop('time-in-bay-area', axis=1, inplace=True)
@@ -56,10 +60,10 @@ for i in fill_nan:
 # print the dataset rows and columns
 print("TRAIN - Dataset No. of Rows: ", train.shape[0])
 print("TRAIN - Dataset No. of Columns: ", train.shape[1])
-print('--------'*10)
+print('--------' * 10)
 print("TEST - Dataset No. of Rows: ", test.shape[0])
 print("TEST - Dataset No. of Columns: ", test.shape[1])
-print('--------'*10)
+print('--------' * 10)
 
 # do some EDA on train set
 train['income'].value_counts().plot(kind='bar')
@@ -85,16 +89,68 @@ train.groupby('income').occupation.value_counts().unstack(0).plot.barh()
 plt.title('Type of Ocuppation by Income')
 plt.show()
 
-# divide into train/test
-y_train, x_train, y_test, x_test = train['income'].values, train.loc[:, train.columns != 'income'].values, \
-                                   test['income'].values, test.loc[:, test.columns != 'income'].values
+# # divide into train/test
+# y_train, x_train, y_test, x_test = train['income'].values, train.loc[:, train.columns != 'income'].values, \
+#                                    test['income'].values, test.loc[:, test.columns != 'income'].values
+#
+# print(y_train.shape)
+# print(x_train.shape)
+# print(x_train)
+#
+#
+# x_train, x_test = x_train.reshape(len(x_train), -1), x_test.reshape(len(x_test), -1)
+# print(x_test.shape)
+# print(x_train.shape)
+# print(x_train)
+#
+# y_train, y_test = to_categorical(y_train, num_classes=9), to_categorical(y_test, num_classes=9)
+#
+# # y_integers = np.argmax(y_train, axis=1)
+#
+# # model = Sequential([
+# #     Dense(500, input_dim=7079, activation="relu"),
+# #     Dense(250, input_dim=7079, activation="relu"),
+# #     Dense(250, input_dim=7079, activation="relu"),
+# #     Dense(300, input_dim=7079, activation="relu"),
+# #     Dense(100, input_dim=7079, activation="relu"),
+# #     Dense(9, activation="softmax")
+# # ])
+# # model.compile(optimizer=Adam(lr=0.01), loss="categorical_crossentropy", metrics=["accuracy"])
+# #
+# # model.fit(x_train, y_train, batch_size=64, epochs=20, validation_data=(x_test, y_test))
+# #
+# # print("Final accuracy on validations set:", 100 * model.evaluate(x_test, y_test)[1], "%")
+# # print("Cohen Kappa", cohen_kappa_score(np.argmax(model.predict(x_test), axis=1), np.argmax(y_test, axis=1)))
+# # print("F1 score", f1_score(np.argmax(model.predict(x_test), axis=1), np.argmax(y_test, axis=1), average='macro'))
 
-# define XGBoost model
-xg_reg = xgb.XGBClassifier()
+train_data = train.values
+test_data = test.values
 
-xg_reg.fit(x_train, y_train)
+x_train, y_train = train_data[:, 1:], train_data[:, 0]
+x_test, y_test = test_data[:, 1:], test_data[:, 0]
 
-y_pred = xg_reg.predict(x_test)
+print(len(x_train))
+print(type(y_train))
 
-# print accuracy
-print("Accuracy is ", round((accuracy_score(y_test, y_pred) * 100), 2))
+# y_train = tf.keras.utils.to_categorical(y_train, num_classes=9)
+# y_test = tf.keras.utils.to_categorical(y_test, num_classes=9)
+
+print('Sets shape:')
+print('x_train shape:', x_train.shape)
+print('y_train shape:', y_train.shape)
+print('x_test shape:', x_test.shape)
+print('y_test shape:', y_test.shape)
+print('------------' * 5)
+
+model = Sequential([
+    Dense(32, activation='relu', input_shape=(9,)),
+    Dense(32, activation='relu'),
+    Dense(9, activation='softmax'),
+])
+
+model.compile(optimizer=Adam(lr=0.01), loss="categorical_crossentropy", metrics=["accuracy"])
+
+hist = model.fit(x_train, y_train,
+                 batch_size=32, epochs=20,
+                 validation_data=(x_test, y_test))
+
