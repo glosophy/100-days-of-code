@@ -858,3 +858,11 @@ and ended up subtracting 1 from the `y_train` set as follows: `y_train = tf.kera
 **Thoughts:** The model is stuck at 40% accuracy. Doesn't seem to improve.
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 94: April 05, 2021
+**Today's Progress:** I kept working on the [Household Income Prediction project](https://www.confetti.ai/questions/3-1). 
+
+**Thoughts:** I'm becoming way too frustrated with this classification problem. I do not see to find a way of improving 
+its accuracy. Maybe try a bigger network?
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
