@@ -129,11 +129,12 @@ test_data = test.values
 x_train, y_train = train_data[:, 1:], train_data[:, 0]
 x_test, y_test = test_data[:, 1:], test_data[:, 0]
 
-print(len(x_train))
-print(type(y_train))
+print(np.unique(y_train))
+print(len(np.unique(y_train)))
 
-# y_train = tf.keras.utils.to_categorical(y_train, num_classes=9)
-# y_test = tf.keras.utils.to_categorical(y_test, num_classes=9)
+# https://keras.io/api/utils/python_utils/#to_categorical-function
+y_train = tf.keras.utils.to_categorical(y_train-1, num_classes=9)
+y_test = tf.keras.utils.to_categorical(y_test-1, num_classes=9)
 
 print('Sets shape:')
 print('x_train shape:', x_train.shape)

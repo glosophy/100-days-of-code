@@ -840,3 +840,21 @@ I kept improving the model to get a better accuracy.
 **Thoughts:** I don't think the XGBoost model will work with these data, so I'll definitely start looking into NN for sure.
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 92: April 03, 2021
+**Today's Progress:** I kept working on the [Household Income Prediction project](https://www.confetti.ai/questions/3-1). 
+I built a very basic NN but ran into some data preprocessing issues.
+
+**Thoughts:** I started with a simple NN as a baseline model. When trying to turn the target into categorical, the model
+complained about the shapes. I ended up going to Stackoverflow to look for a solution. I still can't find what is going on.
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 93: April 04, 2021
+**Today's Progress:** I kept working on the [Household Income Prediction project](https://www.confetti.ai/questions/3-1). 
+I finally figured out what was going on with the `to_categorical` component. I went over the [keras documentation](https://keras.io/api/utils/python_utils/#to_categorical-function)
+and ended up subtracting 1 from the `y_train` set as follows: `y_train = tf.keras.utils.to_categorical(y_train-1, num_classes=9)`.
+
+**Thoughts:** The model is stuck at 40% accuracy. Doesn't seem to improve.
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
