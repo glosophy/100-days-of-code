@@ -873,3 +873,18 @@ its accuracy. Maybe try a bigger network?
 **Thoughts:** Still trying to push that accuracy up. Doesn't seem to work, tho.
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 96: April 07, 2021
+**Today's Progress:** I kept working on the [Household Income Prediction project](https://www.confetti.ai/questions/3-1). 
+
+**Thoughts:** I started making more progress after cleaning up the data a tad more. I'm pushing for around 50% accuracy.
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 97: April 08, 2021
+**Today's Progress:** I kept working on the [Household Income Prediction project](https://www.confetti.ai/questions/3-1). 
+
+**Thoughts:** I tried a new NN architecture and worked better! I tried a somewhat deeper NN with more hidden layers.
+ If it doesn not improve in the upcoming days, I'll go for a CNN. Accuracy at around 70%!
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
