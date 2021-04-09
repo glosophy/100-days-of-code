@@ -888,3 +888,11 @@ its accuracy. Maybe try a bigger network?
  If it doesn not improve in the upcoming days, I'll go for a CNN. Accuracy at around 70%!
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 98: April 09, 2021
+**Today's Progress:** I kept working on the [Household Income Prediction project](https://www.confetti.ai/questions/3-1). 
+
+**Thoughts:** Still doing some changes in the NN. I added two drop out layers to see if the model increased its 
+accuracy, but it's still stuck in 70%. At least that's better that 30%, what it started with.
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
