@@ -897,10 +897,18 @@ accuracy, but it's still stuck in 70%. At least that's better that 30%, what it 
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
 
-# Day 98: April 09, 2021
+# Day 99: April 10, 2021
 **Today's Progress:** I kept working on the [Household Income Prediction project](https://www.confetti.ai/questions/3-1). 
 
-**Thoughts:** Still doing some changes in the NN. I added two drop out layers to see if the model increased its 
-accuracy, but it's still stuck in 70%. At least that's better that 30%, what it started with.
+**Thoughts:** I might settle with this accuracy.
+
+**Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
+
+# Day 100: April 11, 2021
+**Today's Progress:** For this very last day I decided I was going to have some fun working on other short problems. I built
+functions that simulate the roll of a die, checks for empty lists, and calculates the power of two numbers.
+I also run some stuff from the command line to brush up on one of the courses I took on Datacamp yesterday.
+
+**Thoughts:** This was a great jou
 
 **Link to work:** [Confetti AI](https://github.com/glosophy/100-days-of-code/tree/main/Projects/Interview%20Questions/ConfettiAI)
